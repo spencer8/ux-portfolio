@@ -1,0 +1,140 @@
+{
+	"portfolioSections": [
+    {
+      "sectionTitle": "Initial concept → deployment",
+      "sectionDescription": "<p>I enjoy participating in every stage of a digital project—from defining the project to contributing code. A decade&rsquo;s worth of creative direction and project mgmt experience allows me to take a leadership role as needed.</p><p>As a UX designer, I&rsquo;ve helped shape the overall concept and objectives of a project, and then as a creative director/project manager I&rsquo;ve guided an iterative process of design and development. In most cases I&rsquo;ve also personally designed the visual and interactive experience and/or heavily collaborated in the code to bring it all to life.</p>",
+      "caseStudies": [
+        {
+          "link":"./plus-five",
+          "client": "Capital One",
+          "title": "+Five short film player",
+          "externalLink": {
+            "url": "http://videodemo1.team-eight.com",
+            "label": "demo"
+          }
+        },
+        {
+          "link":"./egan",
+          "client": "Jennifer Egan",
+          "title": "Experimental, immersive experience",
+          "externalLink": {
+            "url": "http://jenniferegan.com",
+            "label": "site"
+          }
+        },
+        {
+          "link":"./cms",
+          "client": "Custom Websites",
+          "title": "Assorted custom sites from scratch"
+        }
+      ],
+      "lists": [
+        {
+          "heading": "Hats donned",
+          "items": [
+            "project manager",
+            "ux designer",
+            "creative director",
+            "interaction designer",
+            "front-end developer"
+          ]
+        },
+        {
+          "heading": "Deliverables delivered",
+          "items": [
+            "user experience design",
+            "interaction/visual design",
+            "content planning and architecture",
+            "development: HTML, CSS, JS, PHP"
+          ]
+        }
+      ],
+      "circle": "-c1"
+    },
+    {
+      "sectionTitle": "Let's start with UX",
+      "sectionDescription": "<p>Maybe where user experience ends and where other things like user interface design or visual design start is up for discussion. Ultimately, I don&rsquo;t think being precise here matters much. I do feel strongly that the values and principles that drive user experience design need to be supported in every step of the design/development process.</p><p>I use my role in any project to make sure the business objectives are considered in the context of the user&rsquo;s needs. Then I advocate for these considerations to be present at every step. Outside of that, I believe in being flexible and clarifying priorities: every project needs a tailored blend of UX practices, design love and technical know-how.</p>",
+      "caseStudies": [
+        {
+          "link":"./ux-reviews",
+          "client": "Corgibytes",
+          "title": "UX reviews for various clients"
+        },
+        {
+          "link":"./children-incorporated",
+          "client": "Children Incorporated",
+          "title": "Donor MGMT system redesign"
+        },
+        {
+          "link":"./plugin",
+          "client": "Plugin App",
+          "title": "Discovery and prototyping"
+        }
+      ],
+      "lists": [
+        {
+          "heading": "Practices practiced",
+          "items": [
+            "product definition",
+            "user research",
+            "user testing",
+            "information architecture"
+          ]
+        },
+        {
+          "heading": "Deliverables delivered",
+          "items": [
+            "wireflows",
+            "wireframes",
+            "clickable prototypes",
+            "UX audits"
+          ]
+        }
+      ],
+      "circle": "-c2"
+    },
+    {
+      "sectionTitle": "Focus on the front-end",
+      "sectionDescription": "<p>I love being on a team. In some cases, I'll take on the role of the front-end developer if design and UX has already been handled. When creating or updating the HTML, CSS and JS of new or existing projects, I try to bake in accessibility and performance while bringing the interactive experience to life.</p><p>Often, these are opportunities to challenge my skills and learn a ton from the other designers and developers on the project.</p>",
+      "caseStudies": [
+        {
+          "link":"./smc",
+          "client": "The Smithsonian Channel",
+          "title": "Streaming app for Samsung TV"
+        },
+        {
+          "link":"./resurgent",
+          "client": "Resurgent",
+          "title": "React mobile app"
+        },
+        {
+          "link":"./front-end",
+          "client": "Assorted clients and partners",
+          "title": "CMS and eCommerce sites"
+        }
+      ],
+      "lists": [
+        {
+          "heading": "Libraries leveraged",
+          "items": [
+            "WordPress",
+            "jekyll",
+            "Craft CMS",
+            "shopify",
+            "react"
+          ]
+        },
+        {
+          "heading": "Deliverables delivered",
+          "items": [
+            "translate provided designs into code",
+            "site architecture",
+            "performance &amp; accessibility",
+            "HTML, CSS, JS",
+            "sometimes PHP, React, or other templating languages"
+          ]
+        }
+      ]
+    }
+  ]
+}

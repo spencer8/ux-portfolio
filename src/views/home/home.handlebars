@@ -1,0 +1,43 @@
+{{#> base }}
+
+	{{> header headerText='UX, Interaction Design, Front-End Development' }}
+
+	<main class="main">
+
+    <div class="circle -bio"></div> 
+    <h5 id="intro" class="anchor label"><span>Introduction</span></h5>
+    <article class="bio">
+        <div class="penta-portrait">
+            <div class="portrait-inner">
+                <img width="686" height="685" src="/img/spencer.png" alt="Photo of Spencer Hansen looking really friendly :)">
+
+                <svg class="penta-mask" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 125"><path fill="#ffffff" fill-rule="evenodd" d="M0 125h125V0H0v125zm12.5-62.5l25-43.301h50l25 43.301-25 43.301h-50L12.5 62.5z"/></svg>
+            </div>
+        </div>
+        <header>
+            <h2>Hey there!</h2>
+            <p class="emphasized">You've found my personal portfolio.</p>
+        </header>
+        <div class="bio-text">
+            <div class="text-wrap">
+                <p>I'm looking to collaborate with software/product teams that need my experience and will challenge as many of my skills&nbsp;as&nbsp;possible. This portfolio should give you a pretty good feel for those things.</p>
+                <p>Take a look, then <a class="btn -inline" href="mailto:hey@spencerhansen.co">let's talk.</a></p>
+                <ul class="sh-list">
+                    <h4>Things to know about me</h4>
+                    <li>10+ yrs of design and development experience</li>
+                    <li>Helped build out UX and design practices at multiple&nbsp;companies</li>
+                    <li>Led my own design company for a decade</li>
+                    <li>I don't usually write about myself this much</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+    <h5 id="overview" class="anchor label"><span>Overview</span></h5>
+
+    {{> portfolio-section htmlWebpackPlugin.options.hbsContext }}
+
+	</main>
+
+    {{> footer footerText='Welcome.' }}
+  
+{{/ base }}

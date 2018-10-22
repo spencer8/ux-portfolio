@@ -1,0 +1,22 @@
+{{#> base }}
+
+	{{> header headerText='UX, Interaction Design, Front-End Development' }}
+
+	<h5 id="case-study" class="anchor label"><span>Case Study</span></h5>
+	
+	<main class="main">
+		{{> portfolio-page htmlWebpackPlugin.options.hbsContext }}
+
+		{{#if htmlWebpackPlugin.options.hbsContext.imageRow}}
+			{{> image-row htmlWebpackPlugin.options.hbsContext.imageRow }}
+		{{/if}}
+
+		{{#if htmlWebpackPlugin.options.hbsContext.pagination}}
+			{{> pagination htmlWebpackPlugin.options.hbsContext.pagination }}
+		{{/if}}
+
+	</main>
+
+  {{> footer footerText='Welcome.' }}
+  
+{{/ base }}

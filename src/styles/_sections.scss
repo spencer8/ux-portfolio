@@ -1,0 +1,170 @@
+.bio {
+	padding: $space*4 0 calc(4rem + 90px);
+	border-bottom: 3px solid $sundrop;
+	display: flex;
+	background-color: $sundrop;
+	min-height: calc( 100vh - 114px );
+	box-sizing: border-box;
+	color: darken($grey-dark, 10%);
+	position: relative;
+
+	@supports ( display: grid ) {
+		margin-left: 0;
+		margin-right: 0;
+		display: grid;
+		grid-template-columns: $space*2 1fr $space*2;
+
+		@media screen and (min-width: $bp-md) {
+			grid-template-columns: 10% repeat(6, 1fr) 10%;
+		}
+
+		grid-row-gap: $space * 2;
+
+		> * {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+
+	h2, h4 {
+		color: white;
+	}
+
+	.penta-portrait {
+		grid-column: 2 / span 1;
+		padding: 0 30%;
+
+		.penta-mask path {
+			fill: $sundrop;
+		}
+
+		@media screen and (min-width: $bp-md) {
+			grid-column: 2 / span 1;
+			display: flex;
+	    flex-direction: column;
+	    justify-content: flex-end;
+	    padding: 0;
+		}
+
+		@media screen and (min-width: $bp-lg) {
+			grid-column: 2 / span 1;
+	    justify-content: center;
+			padding: 0 20% 0 0;
+		}
+	}
+
+	header {
+		grid-column: 2 / span 1;
+		padding: 0 $space*2;
+
+		@media screen and (min-width: $bp-md) {
+			grid-column: 2 / span 3;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    padding: 0;
+
+	    h2 {
+	    	border-bottom: 1px solid $grey-dark;
+	    	padding-bottom: .35rem;
+	    }
+
+	    h2, p {
+	    	padding-right: $space;
+	    	box-sizing: border-box;
+	    }
+		}
+
+		@media screen and (min-width: $bp-lg) {
+	    grid-column: span 2;
+	    justify-content: center;
+	  }
+	}
+
+	.bio-text {
+		grid-column: 2 / span 1;
+		padding: 0 $space*2;
+
+		@media screen and (min-width: $bp-md) {
+			grid-row: 1 / span 2;
+			grid-column: 5 / span 3;
+			padding:0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			.text-wrap {
+				padding: $space 0 $space $space*2;
+				border-left: 1px solid $grey-dark;
+				position: relative;
+
+				&::before {
+					position: absolute;
+					content: '';
+					top: 0;
+					left:0;
+					height: 100%;
+					width: $space/2;
+					border-top: 1px solid $grey-dark;
+					border-bottom: 1px solid $grey-dark;
+					box-sizing: border-box;
+				}
+			}
+		}
+
+		@media screen and (min-width: $bp-lg) {
+			grid-column: 5 / span 3;
+			grid-row: initial;
+		}
+
+		.btn {
+			padding: .35em .5em .25em;
+			margin-left: .125em;
+			color: white;
+			border-color: white;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: $red;
+				border-color: $red;
+			}
+		}
+	}
+
+	.sh-list {
+		margin-top: $space*2;
+		font-size: 17px;
+		flex: initial;
+
+		li::before {
+			color: white;
+		}
+
+		li:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.portfolio-section,
+.bio {
+	&::after {
+		content:'. ↓';
+		position: absolute;
+		left: 0;
+		width:.7em;
+		text-align: center;
+		bottom: -8vh;
+		@include font-sizing(17,17);
+		color: $grey-dark;
+	}
+}
+
+.bio::after {
+	bottom: $space*.25;
+}
+
+.portfolio-section:last-of-type::after {
+	content:'';
+}

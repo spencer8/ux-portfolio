@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700|Share+Tech+Mono|Work+Sans:500,600');
+
+$grey-dark : #3F3E39;
+$grey-mid : #A9A8A2;
+$grey-lt : #DBDAD6;
+
+$teal : #1AA0A0;
+$pistachio : #C2D8C9;
+$creme : #F2EDD6;
+$sundrop : #ffa417;
+$red : #ED3438;
+
+$white: #ffffff;
+$black: #000000;
+
+
+$max-width: 1600px;
+$max-width-wide: 2000px;
+$space : 1rem;
+
+$bp-sm : 600px;
+$bp-md : 800px;
+$bp-lg : 1100px;
+$bp-xl : 1400px;
+
+$duration: 300ms;
+
+$font: 'PT Sans', sans-serif;
+$header-font: 'Work Sans', sans-serif;
+$label-font: 'Share Tech Mono', monospace;
+
+
+@mixin font-smoothing($value: antialiased) {
+  @if $value == antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @else {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+  }
+}
+
+@mixin font-sizing($fsize, $lheight) {
+    font-size: $fsize/17 * 1em;
+    line-height: $lheight/$fsize;
+}

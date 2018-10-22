@@ -1,0 +1,50 @@
+<section class="portfolio-section ppage">
+    <article>
+        <h5 class="section-title">{{client}}</h5>
+        <h1 class="h2">{{title}}</h1>
+        {{{description}}}
+    </article>
+    <div class="secondary">
+    {{#if mainSlider}}
+        <div class="img-wrap slider">
+            <div class="owl-carousel owl-theme">
+            {{#each mainSlider}}
+                <article class="slide-wrap">
+                    <header>
+                        <div class="text">
+                            <h3 class="h5">{{title}}</h3>
+                            {{{caption}}}
+                        </div>
+                        <a class="btn -inverse" href="{{url}}">Visit</a>
+                    </header>
+                    <a href="{{url}}">{{{image}}}</a>
+                </article>
+            {{/each}}
+            </div>
+            <div class="nav-wrap">
+                <div class="slider-counter label"></div>
+                <div class="sh-owl-nav"></div>
+            </div>
+        </div>
+     {{else}}
+        <div class="img-wrap">
+            {{#if mainCaption}}<p class="emphasized">{{mainCaption}}</p>{{/if}}
+            {{{mainImage}}}
+        </div>
+    {{/if}}
+    {{#if mainImage}}
+        {{#if lists}}
+        <div class="lists -right">
+          {{> lists lists }}
+        </div>
+        {{/if}}
+    {{/if}}
+    </div>
+    {{#if mainSlider}}
+        {{#if lists}}
+        <div class="lists -right">
+          {{> lists lists }}
+        </div>
+        {{/if}}
+    {{/if}}
+</section>

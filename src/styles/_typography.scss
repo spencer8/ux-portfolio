@@ -1,0 +1,170 @@
+body {
+	font-family: $font;
+	font-size: 1.0625em;
+	@include font-smoothing;
+	color: $grey-dark;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+	font-family: $header-font;
+	font-weight: 600;
+	margin-top: 0;
+	padding: 0;
+}
+h1, .h1,
+h2, .h2 {
+	color: $teal;
+}
+
+h2, .h2 {
+	@include font-sizing(30, 36);
+	margin-bottom: $space/2;
+}
+
+h3, .h3 {
+	@include font-sizing(22, 24);
+	margin-bottom: $space/2;
+}
+
+h4, .h4 {
+	@include font-sizing(17, 20);
+	margin-bottom: $space/2;
+	font-weight: normal;
+}
+
+h5, .h5 {
+	font-family: $label-font;
+	@include font-sizing(13, 16);
+	margin-bottom: $space/4;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	color: $grey-dark;
+}
+
+p {
+	@include font-sizing(17, 24);
+	margin-top:0;
+	margin-bottom: $space;
+}
+
+@mixin label() {
+	font-family: $label-font;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+a {
+	text-decoration: none;
+	background-color: transparent;
+	color: $teal;
+	transition: all $duration/2 ease-out;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $grey-dark;
+		text-decoration: underline;
+
+		.main & {
+			background-color: rgba( $sundrop, .6 );
+		}
+	}
+	p & {
+		color:  darken($teal, 10%);
+		text-decoration: underline;
+	}
+}
+
+a.btn {
+	color: $teal;
+	border: .08em solid $teal;
+	background: transparent;
+	padding: .75em 1em .625em;
+	border-radius: .2em;
+	text-decoration: none;
+	transition: all $duration/2 ease-out;
+
+	&:not(.-inline) {
+		@include label();
+		@include font-sizing(15, 15);
+    display: inline-block;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $sundrop;
+		border-color: $sundrop;
+		color: $grey-dark;
+		text-decoration: none;
+	}
+
+	&.-inverse {
+		border-color: $white;
+		color:$white;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: rgba($white, .7);
+			color: $grey-dark;
+		}
+	}
+}
+
+.emphasized {
+	@include font-sizing(18,24);
+	font-style: italic;
+}
+
+.label {
+	@include label();
+}
+
+::selection {
+  color: black;
+  background: $pistachio;
+}
+
+.lists > ul,
+.sh-list {
+	flex: 1;
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+		padding-left: 1.5em;
+		text-indent: -1.5em;
+		margin-bottom: $space/2;
+
+		&::before {
+			content:'\2192';
+			color: $sundrop;
+			margin-right:.5em;
+		}
+	}
+}
+
+.anchor {
+	position: relative;
+	margin:0;
+	padding: 0;
+
+	span {
+		padding: $space*2 0 0;
+		display: block;
+		position: absolute;
+		writing-mode: vertical-rl;
+    text-orientation: upright;
+    right: 0;
+    line-height: $space*.75;
+    letter-spacing: -1px;
+    white-space: nowrap;
+	}
+}

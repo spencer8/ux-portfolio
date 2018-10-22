@@ -1,0 +1,37 @@
+{
+				"client": "UX Reviews",
+				"title": "User experience audits of existing software",
+				"description": "<p>Working with Corgibytes, one of my main activities has been to provide UX reviews of their clients&rsquo; legacy software applications. This review becomes a component of their very impressively insightful and invaluable <a href=\"https://corgibytes.com/how/\">code inspections</a>.</p><p>Each UX review is guided by the client&rsquo;s business objectives. I then take care to define the user/audience groups of the software and tailor the review to those perspectives. Within this context I identify and catalog points of friction within the user&rsquo;s experience of the application, providing recommendations to address each. I then surface the top priority items based on what will provide the largest positive impact for the stated business objectives.</p><p>These reviews consistently generate additional UI, layout and development tasks. They also guide the long-term development roadmap of the application.</p>",
+				"mainImage": "<img width=\"1500\" height=\"805\" src=\"/img/ux-review.png\" alt=\"Image of sample UX review materials\" srcset=\"/img/ux-review-1500.png 1500w, /img/ux-review-1000.png 1000w, /img/ux-review-660.png 660w\">",
+				"lists": [
+          {
+            "heading": "My contributions",
+            "items": [
+              "client interviews",
+              "user testing",
+              "experience analysis",
+              "final report generation"
+            ]
+          },
+          {
+            "heading": "Criteria analyzed",
+            "items": [
+              "usability",
+              "architecture/organization",
+              "performance",
+              "accessibility",
+              "visual design"
+            ]
+          }
+        ],
+        "pagination": {
+	        "previous": {
+	        	"title": "Assorted custom sites from scratch",
+	        	"link": "/cms"
+	        },
+	        "next": {
+	        	"title": "Donor MGMT System Redesign",
+	        	"link": "/children-incorporated"
+	        }
+        }
+			}

@@ -1,0 +1,35 @@
+{
+				"client": "The Smithsonian Channel",
+				"title": "Streaming App for Samsung TV",
+				"description": "<p>This is an active project. As <a href=\"https://goempirical.com\">Empirical</a>, we are subcontracting with a development team who is responsible for producing versions of the Smithsonian Channel&rsquo;s streaming video app across multiple platforms&mdash;from Android to Apple TV. Our task is to develop the Samsung TV version of the app. We are about midway through this project with most of the UI and data queries in place.</p><p>From a user experience design perspective, working on a TV device has been new. I&rsquo;ve had to adapt much of my usual perception of user-screen interaction away from touch and keyboard driven devices for a remote driven paradigm.</p><p>Also, jumping in and learning how to work with the <a href=\"https://developer.tizen.org/development\">Tizen SDK</a>&nbsp;has been an interesting challenge, but this project was a great excuse to buy a really nice TV.</p>",
+				"mainImage": "<img width=\"2000\" height=\"2658\" src=\"/img/smc.png\" alt=\"Screenshot of the SMC TV App\" srcset=\"/img/smc-1500.png 1500w, /img/smc-1000.png 1000w, /img/smc-660.png 660w\">",
+				"lists": [
+          {
+            "heading": "Features delivered",
+            "items": [
+              "Custom Samsung Smart TV app",
+              "Javascript + Tizen",
+              "Rich CSS3 animations"
+            ]
+          },
+          {
+            "heading": "My contributions",
+            "items": [
+              "Team management and direction",
+              "Coding component templates",
+              "Coding interactive system",
+              "HTML, CSS, javascript, handlebars"
+            ]
+          }
+        ],
+        "pagination": {
+	        "previous": {
+	        	"title": "Plugin App: Discovery and prototyping",
+	        	"link": "/plugin"
+	        },
+	        "next": {
+	        	"title": "React Mobile App",
+	        	"link": "/resurgent"
+	        }
+        }
+			}

@@ -1,0 +1,56 @@
+{
+				"client": "Custom Websites",
+				"title": "Assorted custom sites from scratch",
+				"description": "<p>A few more custom sites I&rsquo;ve built—responsive, browser-based websites are where I&rsquo;ve spent most of my working hours. Working directly with clients from the start to finish, I've designed and crafted these custom sites each with a tailored content management system.</p><p>These types of projects have kept me sharp in areas from project and client management to visual design and front-end development. They&rsquo;ve kept me in close collaboration with marketers, brand designers and business owners. The varied libraries and systems have pushed me to continue learning new approaches and methods within familiar programming languages. Each has provided an opportunity for me to craft a custom visual and interactive system, then execute the final code.</p>",
+        "mainSlider": [
+          {
+            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/pva-1.png\" srcset=\"/img/pva-1-1500.png 1500w, /img/pva-1-1000.png 1000w, /img/pva-1-660.png 660w\" alt=\"Screenshot of the Preservation Virginia Website\"></div>",
+            "title": "Preservation Virginia | Non-profit Web Site",
+            "caption": "<p>Complete site restructure and redesign. Migration from Expression Engine to WordPress.</p>",
+            "url": "https://preservationvirginia.org"
+          },
+          {
+            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/t8-1.png\" srcset=\"/img/t8-1-1500.png 1500w, /img/t8-1-1000.png 1000w, /img/t8-1-660.png 660w\" alt=\"Screenshot of the Team Eight Website\"></div>",
+            "title": "Team Eight | Agency Website",
+            "caption": "<p>Completely custom design and build on WordPress. Featuring original graphics and animations.</p>",
+            "url": "https://team-eight.com"
+          },
+          {
+            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/as-1.png\" srcset=\"/img/as-1-1500.png 1500w, /img/as-1-1000.png 1000w, /img/as-1-660.png 660w\" alt=\"Screenshot of the Alyssa Salomon Website\"></div>",
+            "title": "Alyssa Salomon | Artist website",
+            "caption": "<p>Unique site architecture and user flow. Completely custom design and build on WordPress.</p>",
+            "url": "http://alyssasalomon.com"
+          }
+        ],
+				"lists": [
+          {
+            "heading": "Technologies used",
+            "items": [
+              "WordPress",
+              "jekyll",
+              "Craft CMS",
+              "shopify"
+            ]
+          },
+          {
+            "heading": "My contributions",
+            "items": [
+              "project/client management",
+              "user experience design",
+              "interaction/visual design",
+              "content planning and architecture",
+              "development: HTML, CSS, JS, PHP"
+            ]
+          }
+        ],
+        "pagination": {
+	        "previous": {
+	        	"title": "Experimental, Immersive Experience",
+            "link": "/egan"
+	        },
+	        "next": {
+	        	"title": "UX reviews",
+            "link": "/ux-reviews"
+	        }
+        }
+			}

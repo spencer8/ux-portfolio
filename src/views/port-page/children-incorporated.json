@@ -1,0 +1,60 @@
+{
+	"client": "Children Incorporated",
+	"title": "Donor MGMT System Redesign",
+	"description": "<p>This project was a great opportunity to use a lot of fundamental UX practices from user research and testing to a reenvisioned design based on meeting the the newly prioritized user needs. For this project, I lead the small team of UX designers at Team Eight.</p><p class=\"-mb\"><a class=\"btn\" href=\"https://childrenincorporated.org\">view the site</a></p><p>Carefully conducted user research yielded insights into what Children Incorporated&rsquo;s current donors value as well as what they were missing. This in turn informed a new strategy: build experiences that maintain the user&rsquo;s emotional connection with the children and the organization.</p><p>Next, we identified the most critical areas of interaction—which areas of the site and app do we need users to interact with most? Which need the most improvement to their functionality? We implemented the resulting changes to the marketing site and are working with Corgibytes and Children Incorporated&rsquo;s internal dev team to slowly roll out the changes to the donor management system.</p>",
+	"mainImage": "<img width=\"2000\" height=\"1500\" src=\"https://team-eight.com/wp-content/uploads/2016/10/laptop-ci-2018.jpg?x12325\" alt=\"New Site design\" srcset=\"https://team-eight.com/wp-content/uploads/2016/10/laptop-ci-2018.jpg 2000w, https://team-eight.com/wp-content/uploads/2016/10/laptop-ci-2018-222x167.jpg 222w, https://team-eight.com/wp-content/uploads/2016/10/laptop-ci-2018-600x450.jpg 600w, https://team-eight.com/wp-content/uploads/2016/10/laptop-ci-2018-1300x975.jpg 1300w\">",
+	"lists": [
+    {
+      "heading": "Features delivered",
+      "items": [
+        "User research and testing",
+        "Refocused and prioritized application definition",
+        "Wireflows and wireframes",
+        "Updated design system"
+      ]
+    },
+    {
+      "heading": "My contributions",
+      "items": [
+        "Project/client management",
+        "Creative direction, interaction design, UX design",
+        "HTML, CSS, javascript, PHP"
+      ]
+    }
+  ],
+  "imageRow": {
+  	"rowClass": "-two-up -img-padding",
+  	"imgs": [
+  		{
+    		"imgClass": "",
+    		"caption": "Concept for a new sponsorship page",
+    		"img": "<img width=\"1200\" height=\"1350\" src=\"https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept.jpg?x12325\" alt=\"Concept for a new sponsorship page\" srcset=\"https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept.jpg 1200w, https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept-222x250.jpg 222w, https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept-600x675.jpg 600w\">"
+    	},
+  		{
+    		"imgClass": "-span-3",
+    		"caption": "New home page design",
+    		"img": "<img width=\"916\" height=\"5000\" src=\"https://team-eight.com/wp-content/uploads/2016/10/CI-Home-Design-916x5000.jpg?x12325\" alt=\"New home page design\">"
+    	},
+  		{
+    		"imgClass": "",
+    		"caption": "Concept for new dashboard design",
+    		"img": "<img width=\"1200\" height=\"1565\" src=\"https://team-eight.com/wp-content/uploads/2016/10/my_impact-concept.jpg?x12325\" alt=\"Concept for new dashboard design\" srcset=\"https://team-eight.com/wp-content/uploads/2016/10/my_impact-concept.jpg 1200w, https://team-eight.com/wp-content/uploads/2016/10/my_impact-concept-222x290.jpg 222w, https://team-eight.com/wp-content/uploads/2016/10/my_impact-concept-600x783.jpg 600w\">"
+    	},
+  		{
+    		"imgClass": "",
+    		"caption": "Concepts for mobile views",
+    		"img": "<img width=\"2000\" height=\"2658\" src=\"/img/ci.png\" alt=\"Screenshot of the Jennifer Egan Website\" srcset=\"/img/ci-1500.png 1500w, /img/ci-1000.png 1000w, /img/ci-660.png 660w\">"
+    	}
+    ]
+  },
+  "pagination": {
+    "previous": {
+    	"title": "UX Reviews",
+    	"link": "/ux-reviews"
+    },
+    "next": {
+    	"title": "Plugin App: Discovery and prototyping",
+    	"link": "/plugin"
+    }
+  }
+}

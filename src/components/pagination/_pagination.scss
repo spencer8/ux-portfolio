@@ -1,0 +1,118 @@
+.pagination {
+	display: flex;
+	justify-content: space-between;
+	margin: $space*2 $space*1;
+	flex-direction: column;
+
+	@media screen and (min-width: $bp-md) {
+		flex-direction: row;
+		margin: $space*2;
+	}
+
+	h5 {
+		margin-top:0;
+
+		&::before {
+			content: '';
+	    border-bottom: 1px solid $grey-dark;
+	    border-left: 1px solid $grey-dark;
+	    position: absolute;
+	    width: $space;
+	    height: $space;
+	    top: $space*1.3;
+	    left: $space*4;
+	    transform: rotate(45deg);
+	    transition: transform $duration ease;
+		}
+	}
+
+	a {
+		position: relative;
+		text-decoration: none;
+		padding-top: $space * .75;
+		padding-bottom: $space * .75;
+		margin-bottom: $space*2;
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 4*$space;
+			height: 4*$space;
+			top: .25*$space;
+			left: 3*$space;
+	    background-color: $sundrop;
+	    mix-blend-mode: multiply;
+	    border-radius: 50%;
+	    opacity: .2;
+	    transition: transform $duration*1.5 ease, opacity $duration*1.5 ease;
+		}
+
+		&::before {
+			content: '';
+	    border-bottom: 1px solid $grey-dark;
+	    width: calc(100% - #{$space*3.8});
+	    height: 1px;
+	    position: absolute;
+	    top: $space*1.75;
+	    right: 0;
+	    transition: width $duration ease;
+		}
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: transparent;
+
+			&::after {
+				transform: translate(-3*$space, -.5*$space) scale(.7);
+				opacity: .6;
+			}
+			&::before {
+				width: calc(100% - #{$space*1.4});
+			}
+			h5::before {
+				transform: translateX(-2.5*$space) rotate(45deg);
+			}
+		}
+	}
+
+	.previous {
+		padding-left: $space*6;
+		margin-right: $space*4;
+	}
+
+	.next {
+		text-align:right;
+		padding-right: $space*6;
+		margin-left: $space*4;
+
+		h5::before {
+	    right: $space*4;
+	    left:auto;
+	    transform: rotate(-135deg);
+		}
+
+		&::after {
+			right: 3*$space;
+			left:auto;
+		}
+
+		&::before {
+	    width: calc(100% - #{$space*3.8});
+	    left: 0;
+	    right: auto;
+		}
+
+		&:hover,
+		&:active,
+		&:focus {
+
+			&::after {
+				transform: translate(3*$space, -.5*$space) scale(.7);
+			}
+			h5::before {
+				transform: translateX(2.5*$space) rotate(-135deg);
+			}
+		}
+	}
+}

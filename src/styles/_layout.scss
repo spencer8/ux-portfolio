@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.circle {
+	position: absolute;
+  width: 18vw;
+  height: 18vw;
+  border-radius: 50%;
+  background-color: rgba($sundrop, .5);
+  pointer-events: none;
+  transform: translate3d(100vw, 8vh, -3vh) scale(6);
+  z-index: -1;
+
+
+  @media screen and (min-width: $bp-sm) {
+    width: 100px;
+    height: 100px;
+  }
+
+  &.-c2 {
+  	transform: translate3d(67vw, 80vh, -4vh) scale(2.25);
+  	background-color: rgba($sundrop, .25);
+  }
+}
+
+.circle.-bio {
+  z-index: 2;
+  opacity: 0.15;
+  mix-blend-mode: multiply;
+  transition: all $duration*1.75 ease $duration*.25;
+  transform: translate3d(36vw, 34vh, -2vh) scale(2.25);
+  width: 18vw;
+  height: 18vw;
+
+  @media screen and (min-width: $bp-md) {
+    transform:  translate3d(-10vw, 49vh, -2vh) scale(0.7);
+  }
+
+  .loaded & {
+    opacity: .35;
+    transform: translate3d(32vw, 32vh, -2vh) scale(2.75);
+
+    @media screen and (min-width: $bp-md) {
+      transform: translate3d(-14vw, 40vh, -2vh);
+    }
+  }
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 4vh;
+  perspective-origin: top center;
+}
+
+.penta-portrait {
+  background-color: transparent;
+  overflow: hidden;
+
+  .portrait-inner {
+    position:relative;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background-color: $pistachio;
+    opacity:0;
+    transition: opacity $duration ease-out;
+
+    .loaded & {
+      opacity:1;
+    }
+  }
+
+  svg {
+    width: 122%;
+    height: auto;
+    position: absolute;
+    top: -12%;
+    left: -11%;
+    transition: transform $duration ease;
+
+    .loaded & {
+      transform: rotate(-12deg);
+      transition: transform $duration ease $duration;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      transform: rotate(-15deg);
+      transition: transform $duration ease;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.-mb {
+  margin-bottom: $space*2;
+}

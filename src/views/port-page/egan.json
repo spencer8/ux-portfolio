@@ -1,0 +1,81 @@
+{
+				"client": "Jennifer Egan",
+				"title": "Experimental, Immersive Experience",
+				"description": "<p>To promote her new book, Manhattan Beach, author Jennifer Egan wanted a new website that immersed visitors in the scenery, setting and conceptual mood of the book. Under my UX/Design shop, Team Eight, our team of three were excited to take this on. It was not a typical request and it challenged much of our approach to user experience on the web. But we had worked with Jenny before and there was a lot of trust there.</p><p><a class=\"btn\" href=\"http://jenniferegan.com\">experience the site</a></p><p>As much of the book takes place under the waters around Manhattan in the 1940&rsquo;s, we knew we wanted to create something that provided a rich sense of space, but remained murky and mysterious. We went through an abnormal amount of exploration, prototyping and testing to hone in on a concept and approach. We decided against using WebGL as it would leave out much of the Jenny&rsquo;s target audience. Instead we built the experience around a hybrid of HTML5 canvas, CSS3 perspective and javascript that allowed us to include over 90% of Jenny&rsquo;s historical site visitors including viewers on android and apple phones, or in chrome and safari. Visitors on any non-supported browser or device still get the full website, but with a limited version of the bonus underwater experience.</p>",
+				"mainImage": "<img width=\"1300\" height=\"975\" src=\"https://team-eight.com/wp-content/uploads/2018/04/laptop-1300x975.jpg?x12325\" alt=\"Jennifer Egan site on a laptop screen\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/laptop-1300x975.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/laptop-222x167.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/laptop-600x450.jpg 600w, https://team-eight.com/wp-content/uploads/2018/04/laptop.jpg 1600w\">",
+				"lists": [
+          {
+            "heading": "Deliverables delivered",
+            "items": [
+              "Custom author website featuring strange, immersive experience",
+              "High-concept project based on unusual project objectives",
+              "WordPress for the normal CMS parts",
+              "Javascript, CSS perspective, HTML5 Canvas for the experimental stuff"
+            ]
+          },
+          {
+            "heading": "My contributions",
+            "items": [
+              "Project/client management",
+              "Creative Direction, Visual Design, UX/UI",
+              "HTML, CSS, javascript, php, WordPress"
+            ]
+          }
+        ],
+        "imageRow": {
+        	"rowClass": "-one-up -img-padding -dark-box",
+        	"imgs": [
+        		{
+	        		"imgClass": "",
+	        		"caption": "screen captures of home screen",
+	        		"img": "<img width=\"2000\" height=\"1638\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-1.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 1\" sizes=\"(max-width: 2000px) 100vw, 2000px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-1.jpg 2000w, https://team-eight.com/wp-content/uploads/2018/04/home-1-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-1-600x491.jpg 600w, https://team-eight.com/wp-content/uploads/2018/04/home-1-1300x1065.jpg 1300w\">"
+	        	},
+        		{
+	        		"imgClass": "",
+	        		"img": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-2-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 2\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-2-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-2-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-2-600x491.jpg 600w\">"
+	        	},
+        		{
+	        		"imgClass": "",
+	        		"img": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-3-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 3\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-3-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-3-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-3-600x491.jpg 600w\">"
+	        	},
+        		{
+	        		"imgClass": "",
+	        		"img": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-4-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 4\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-4-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-4-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-4-600x491.jpg 600w\">"
+	        	},
+        		{
+	        		"imgClass": "",
+	        		"img": "<img width=\"2233\" height=\"1829\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-5.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 5\" sizes=\"(max-width: 2233px) 100vw, 2233px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-5.jpg 2233w, https://team-eight.com/wp-content/uploads/2018/04/home-5-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-5-600x491.jpg 600w, https://team-eight.com/wp-content/uploads/2018/04/home-5-1300x1065.jpg 1300w\">"
+	        	},
+        		{
+	        		"imgClass": "",
+	        		"img": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-6-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 6\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-6-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-6-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-6-600x491.jpg 600w\">"
+	        	},
+        		{
+	        		"imgClass": "",
+	        		"img": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-7-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 7\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-7-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-7-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-7-600x491.jpg 600w\">"
+	        	},
+        		{
+	        		"imgClass": "",
+	        		"img": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-8-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 8\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-8-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-8-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-8-600x491.jpg 600w\">"
+	        	},
+        		{
+	        		"imgClass": "",
+	        		"img": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-9-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 9\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-9-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-9-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-9-600x491.jpg 600w\">"
+	        	},
+        		{
+	        		"imgClass": "",
+	        		"img": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-10-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 10\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-10-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-10-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-10-600x491.jpg 600w\">"
+	        	}
+	        ]
+        },
+        "pagination": {
+	        "previous": {
+	        	"title": "+Five short film player",
+	        	"link": "/plus-five"
+	        },
+	        "next": {
+	        	"title": "Assorted custom sites from scratch",
+	        	"link": "/custom"
+	        }
+        }
+			}

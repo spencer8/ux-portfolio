@@ -1,0 +1,36 @@
+{{#each portfolioSections }}
+<section class="portfolio-section">
+    <article>
+        <h2 class="section-title">{{sectionTitle}}</h2>
+        {{{sectionDescription}}}
+    </article>
+    {{#if caseStudies}}
+    <div class="case-studies">
+        <ul>
+        {{#each caseStudies}}
+            <li>
+                <a href="{{link}}" class="case-study--title">
+                    <h3 class="h5">{{client}}</h3>
+                    <h3 class="h4">{{title}}</h3>
+                </a>
+                <div class="actions">
+                    {{#if externalLink}}
+                    <a class="btn" href="{{externalLink.url}}">{{externalLink.label}}</a>
+                    {{/if}}
+                    <a href="{{link}}">details</a>
+                </div>
+            </li>
+        {{/each}}
+        </ul>
+    </div>
+    {{/if}}
+    {{#if lists}}
+    <div class="lists">
+      {{> lists lists }}
+    </div>
+    {{/if}}
+</section>
+{{#if circle}}
+<div class="circle {{circle}}"></div>
+{{/if}}
+{{/each}}
