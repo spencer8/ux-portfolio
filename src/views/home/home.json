@@ -72,15 +72,14 @@
           "link":"./children-incorporated",
           "client": "Children Incorporated",
           "title": "Donor MGMT system redesign",
-          "image": "<img width=\"1200\" height=\"1350\" src=\"https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept.jpg?x12325\" alt=\"Concept for a new sponsorship page\" srcset=\"https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept.jpg 1200w, https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept-222x250.jpg 222w, https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept-600x675.jpg 600w\">",
+          "image": "<img width=\"1200\" height=\"729\" src=\"/img/dms.png\" alt=\"Image of Child Spnsorship feature\" srcset=\"/img/dms-1500.png 1500w, /img/dms-1000.png 1000w\">",
           "imgClass": "website"
         },
         {
           "link":"./plugin",
           "client": "Plugin App",
           "title": "Discovery and prototyping",
-          "image": "<img width=\"2000\" height=\"2000\" src=\"/img/plugin-game.png\" alt=\"Clickable prototype screenshot of the Plugin Video sharing screen\" srcset=\"/img/plugin-game-1500.png 1500w, /img/plugin-game-1000.png 1000w, /img/plugin-game-660.png 660w\">",
-          "imgClass": "website"
+          "image": "<img width=\"1306\" height=\"635\" src=\"/img/plugin-vcu.png\" alt=\"Clickable prototype screenshot of the Plugin Video sharing screen\" srcset=\"/img/plugin-vcu-1500.png 1500w, /img/plugin-vcu-1000.png 1000w, /img/plugin-vcu-660.png 660w\">"
         }
       ],
       "lists": [

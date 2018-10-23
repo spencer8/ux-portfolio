@@ -199,6 +199,10 @@
 			@media screen and (min-width: $bp-sm) {
 				margin-bottom:0;
 
+				h3 {
+					padding-right: $space/2;
+				}
+
 				.h4 {
 					margin-bottom:0;
 				}
