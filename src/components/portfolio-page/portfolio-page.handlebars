@@ -1,11 +1,29 @@
-<section class="portfolio-section ppage">
+<section class="portfolio-section ppage{{#if mainSlider}} -has-slider{{/if}}">
     <article>
         <h5 class="section-title">{{client}}</h5>
-        <h1 class="h2">{{title}}</h1>
+        <h1 class="h2">{{{title}}}</h1>
         {{{description}}}
     </article>
+    {{#if mainImage}}
     <div class="secondary">
+        <div class="img-wrap">
+            {{#if mainCaption}}<p class="emphasized">{{mainCaption}}</p>{{/if}}
+            {{{mainImage}}}
+        </div>
+        {{#if lists}}
+        <div class="lists -right">
+          {{> lists lists }}
+        </div>
+        {{/if}}
+    </div>
+    {{/if}}
     {{#if mainSlider}}
+        {{#if lists}}
+        <div class="lists -with-slider">
+          {{> lists lists }}
+        </div>
+        {{/if}}
+    <div class="secondary slider-wrap">
         <div class="img-wrap slider">
             <div class="owl-carousel owl-theme">
             {{#each mainSlider}}
@@ -26,25 +44,6 @@
                 <div class="sh-owl-nav"></div>
             </div>
         </div>
-     {{else}}
-        <div class="img-wrap">
-            {{#if mainCaption}}<p class="emphasized">{{mainCaption}}</p>{{/if}}
-            {{{mainImage}}}
-        </div>
-    {{/if}}
-    {{#if mainImage}}
-        {{#if lists}}
-        <div class="lists -right">
-          {{> lists lists }}
-        </div>
-        {{/if}}
-    {{/if}}
     </div>
-    {{#if mainSlider}}
-        {{#if lists}}
-        <div class="lists -right">
-          {{> lists lists }}
-        </div>
-        {{/if}}
     {{/if}}
 </section>

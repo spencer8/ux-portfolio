@@ -13,13 +13,13 @@
 
 		display: grid;
 
-		grid-template-columns: 2rem 2rem repeat(9, 1fr);
+		grid-template-columns: 2rem 2rem repeat(9, 1fr) 2rem;
 
 		@media screen and (min-width: $bp-sm) {
-			grid-template-columns: 4rem 4rem repeat(9, 1fr);
+			grid-template-columns: 4rem 4rem repeat(9, 1fr) 4rem;
 		}
 
-		grid-row-gap: $space * 2;
+		grid-row-gap: $space * 4;
 
 		> * {
 			margin-left: 0;
@@ -31,17 +31,17 @@
 		flex-direction: row;
 	}
 
-	> * {
+	/*> * {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-	}
+	}*/
 
 	> article {
 		grid-column: 2 / span 9;
 
 		@media screen and (min-width: $bp-md) {
-			grid-column: 2 / span 4;
+			grid-column: 2 / span 5;
 			padding-right:$space;
 		}
 
@@ -74,86 +74,162 @@
 
 		h5.section-title {
 			margin-bottom: 0;
-
-			&::after {
-				top: 0;
-			}
+			position: relative;
 		}
 	}
 
 	.case-studies {
-		grid-column: span 11;
+		grid-column: span 12;
+
+		@media screen and (min-width: $bp-sm) {
+			grid-column: 2 / span 10;
+		}
 
 		@media screen and (min-width: $bp-md) {
-			grid-column: 6 / span 6;
+			grid-column: 3 / span 9;
 		}
 
 		@media screen and (min-width: $bp-lg) {
-			grid-column: 7 / span 5;
+			grid-column: 4 / span 8;
+		}
+
+		.img-wrap {
+			box-sizing: border-box;
+			position: relative;
+
+			@media screen and (min-width: $bp-sm) {
+				background: radial-gradient(ellipse at center, lighten($pistachio, 20%) 35%, lighten($pistachio, 15%) 100%);
+				padding:5%;
+				flex: 0 0 62.5%;
+				background-color: $creme;
+			}
+
+			> div {
+				transition: transform $duration ease-out;
+			}
+
+			img {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
 		}
 
 		ul {
 			margin: 0;
 			padding: 0;
-			height: $space * 18;
-			display: flex;
-			justify-content: center;
-			flex-direction: column;
 		}
 
 		li {
 			list-style: none;
+		}
+
+		li > a {
 			box-sizing: border-box;
-			display: flex;
-			justify-content: space-between;
-			align-items: stretch;
-			margin: 0;
-			padding: 0;
-			padding-right: $space;
-			border-bottom: 1px solid rgba( $teal, .45);
+			margin: 0 0 $space*4;
 			position: relative;
-			outline: 0;
-			flex:0 1 auto;
+			display: block;
+			background: radial-gradient(ellipse at center, lighten($pistachio, 18%) 35%, lighten($pistachio, 10%) 100%);
+			padding: $space*3 $space*2 $space*2;
+
+			@media screen and (min-width: $bp-sm) {
+				padding:0;
+				background: transparent;
+			}
 
 			transition: all $duration ease-out;
 
-			&:first-child {
-				border-top: 1px solid rgba( $teal, .45);
+			&:hover,
+			&:focus {
+				background-color: transparent;
+				text-decoration: none;
 			}
 
-			@media screen and (min-width: $bp-md) {
+			@media screen and (min-width: $bp-sm) {
+				display: flex;
+				justify-content: space-between;
+				align-items: stretch;
+
 				&:hover,
 				&:focus {
-					flex:1 1 auto;
+
+					.case-study--title {
+						color: $red;
+						background-color: transparent;
+						text-decoration: none;
+
+						.h5 {
+							color: $red;
+
+							&::after {
+								width: 105%;
+				    		transition: width $duration/2 ease-in;
+							}
+							&::before {
+								transform: scale(1);
+				    		transition: transform $duration*.75 ease-out $duration/2;
+							}
+						}
+					}
+
+					.img-wrap > div {
+						transform: scale(1.02);
+						transition: transform $duration ease $duration/2;
+					}
 				}
 			}
-		}
-
-		.case-study--title .h4 {
-			margin-bottom:0;
 		}
 
 		.case-study--title {
 			transition: color $duration/2 ease-out;
 			color: $teal;
-			padding: 1rem;
+			padding: 0;
 	    flex: 1;
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center;
+			z-index:2;
+			margin-bottom: $space;
 
 			.h5 {
 				color: $grey-dark;
+				position: relative;
 			}
 
-			&:hover,
-			&:focus  {
-				color: $red;
-				background-color: transparent;
-				text-decoration: none;
+			@media screen and (min-width: $bp-sm) {
+				margin-bottom:0;
 
+				.h4 {
+					margin-bottom:0;
+				}
+				
 				.h5 {
-					color: $red;
+					padding-bottom: $space*.5;
+					margin-bottom: $space*.5;
+
+					&::after {
+						content: '';
+				    border-bottom: 1px solid $grey-dark;
+				    width: 95%;
+				    height: 1px;
+				    position: absolute;
+				    bottom: 0;
+				    left: 0;
+				    transition: width $duration ease-out $duration/2;
+					}
+
+					&::before {
+						content: '';
+				    right: -5%;
+				    height: 5px;
+				    width: 5px;
+				    position: absolute;
+				    bottom: -2px;
+				    transition: transform $duration/2 ease-out;
+				    background-color: $grey-dark;
+				    border-radius: 50%;
+				    transform: scale(0);
+					}
 				}
 			}
 		}

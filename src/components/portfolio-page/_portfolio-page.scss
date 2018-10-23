@@ -1,9 +1,17 @@
 .portfolio-section.ppage {
-  margin: 4*$space 0;
+    margin: 4*$space 0;
+    grid-row-gap: $space * 2;
+    min-height: auto;
 
-	@media screen and (min-width: $bp-md) {
-		margin: 11*$space 0;
-	}
+    @media screen and (min-width: $bp-md) {
+    	margin: 6*$space 0 3*$space;
+
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
 }
 
 .secondary {
@@ -16,6 +24,33 @@
 	@media screen and (min-width: $bp-lg) {
 		grid-column: 7 / span 5;
 	}
+
+    &.slider-wrap {
+        grid-column: span 12;
+        position: relative;
+
+        @media screen and (min-width: $bp-md) {
+            grid-column: 2 / span 10;
+        }
+
+        &::before {
+            content:'';
+            background: $sundrop;
+            position: absolute;
+            top:0;
+            height: 100%;
+            left:0;
+            width:100%;
+
+            @media screen and (min-width: $bp-md) {
+                width: 80%;
+            }
+
+            @media screen and (min-width: $bp-lg) {
+                width:60%;
+            }
+        }
+    }
 
 	.img-wrap {
 		width: 100%;
@@ -33,142 +68,156 @@
 	}
 
 	.slider {
-    background: $sundrop;
-    padding:$space*5 $space 0;
-    box-sizing: border-box;
+        padding:$space*2 $space*2 0;
+        box-sizing: border-box;
 
-    @media screen and (min-width: $bp-sm) {
-		  padding:$space*6 $space*2 0;
-		}
-
-    @media screen and (min-width: $bp-lg) {
-		  padding:$space*6 0 0;
-		}
-
-    header {
-    	box-sizing: border-box; 
-    	display: flex;
-    	justify-content: space-between;
-    	align-items: flex-end;
-    	margin-bottom: $space;
-    	transition: opacity $duration/4 ease-out $duration/2;
-
-    	@media screen and (min-width: $bp-lg) {
-    		padding-left: calc(10% + #{$space*6});
+        @media screen and (min-width: $bp-md) {
+    		padding:$space*4 0 0;
     	}
 
-    	.text {
- 		    flex: 0 1 40ch;
+        @media screen and (min-width: $bp-lg) {
+    	
     	}
 
-    	.h5 {
-    		border-bottom: 1px solid white;
+        header {
+        	box-sizing: border-box; 
+        	display: flex;
+            flex-direction: column;
+        	justify-content: center;
+        	align-items: flex-start;
+        	padding: 0 0 $space;
+        	transition: opacity $duration/4 ease-out $duration/2;
+            grid-column: span 2;
+
+            @media screen and (min-width: $bp-md) {
+                padding: 0 $space*3 $space;
+            }
+
+            @media screen and (min-width: $bp-lg) {
+                padding: $space*3;
+            }
+
+        	.h5 {
+        		border-bottom: 1px solid white;
 				padding-bottom: 4px;
 				margin-bottom: 8px;
 				display: inline-block;
 				padding-right: 3em;
-    	}
+                max-width: 55ch;
+        	}
 
-    	p {
-    		font-style: italic;
-    	}
+        	p {
+        		font-style: italic;
+                max-width: 35ch;
+        	}
 
-    	p:last-child {
-    		margin-bottom:$space/2;
-    	}
+        	p:last-child {
+        		margin-bottom:$space/2;
+        	}
 
-    	.btn {
-    		color: $grey-dark;
-    		border-color: $white;
-    	}
-    }
+        	.btn {
+        		color: $grey-dark;
+        		border-color: $white;
+                margin-top: $space;
 
-    .owl-grab header,
-    .owl-item:not(.active) header {
-  		opacity: 0;
-    	transition: opacity $duration/4 ease-out;
-  	}
+                &:active,
+                &:focus,
+                &:hover {
+                    background-color: $red;
+                    border-color: $red;
+                    color: white;
+                }
+        	}
+        }
 
-    .nav-wrap {
-    	@include font-smoothing;
-    	display: flex;
-    	justify-content: flex-end;
-    	align-items: center;
-    	margin-top: $space;
-    	padding: 0 0 $space*2;
-    	box-sizing: border-box;
+        .owl-grab header,
+        .owl-item:not(.active) header {
+      		opacity: 0;
+        	transition: opacity $duration/4 ease-out;
+      	}
 
-    	@media screen and (min-width: $bp-lg) {
-    		padding: 0 $space $space*2;
-    	}
+        .nav-wrap {
+        	@include font-smoothing;
+        	display: flex;
+        	justify-content: flex-end;
+        	align-items: center;
+        	padding: 0 0 $space*2;
+        	box-sizing: border-box;
+            position: relative;
+            padding: 0 $space $space*2;
 
-    	.owl-prev {
-    		display: none;
-    	}
-    	.owl-next {
-    		height:40px;
-    		width: 40px;
-    		border: 1px solid white;
-    		text-align: center;
-    		border-radius: 50%;
-    		background-color: transparent;
-    		margin-left:$space;
-				transition: background $duration/2 ease-out;
-				cursor: pointer;
+            @media screen and (min-width: $bp-md) {
+                width: 80%;
+            }
 
-    		span {
-    			display: inline-block;
-    			height: $space*.75;
-    			width: $space*.75;
-    			border-top: 1px solid $grey-dark;
-    			border-right: 1px solid $grey-dark;
-					transform: translate(-17%, 7%) rotate(45deg);
-					transform-origin: center;
-					overflow: hidden;
-					text-indent: -99em;
-    		}
+        	@media screen and (min-width: $bp-lg) {
+                width: 60%;
+        	}
 
-    		&:hover,
-    		&:active,
-    		&:focus {
-    			background-color: rgba($white, .7);
-    			outline: 0;
-    		}
-    	}
-    }
+        	.owl-prev {
+        		display: none;
+        	}
+        	.owl-next {
+        		height:40px;
+        		width: 40px;
+        		border: 1px solid white;
+        		text-align: center;
+        		border-radius: 50%;
+        		background-color: transparent;
+        		margin-left:$space;
+    				transition: background $duration/2 ease-out;
+    				cursor: pointer;
+
+        		span {
+        			display: inline-block;
+        			height: $space*.75;
+        			width: $space*.75;
+        			border-top: 1px solid $grey-dark;
+        			border-right: 1px solid $grey-dark;
+    					transform: translate(-17%, 7%) rotate(45deg);
+    					transform-origin: center;
+    					overflow: hidden;
+    					text-indent: -99em;
+        		}
+
+                &:active,
+                &:focus {
+                    background-color: rgba($white, .4);
+                    outline: 0;
+                }
+
+        		&:hover {
+        			background-color: rgba($white, .7);
+        		}
+        	}
+        }
 	}
 
 	.owl-carousel {
-		//padding-left: $space;
-		
-		@media screen and (min-width: $bp-lg) {
-			width: 110%;
-			margin-left: -10%;
-			padding-left: 0;
-		}
 		
 		.slide-wrap {
-			padding:0 2px;
+            width: 100%;  
+            padding: 1rem;
+            box-sizing: border-box;
 
-	    @media screen and (min-width: $bp-lg) {
-			  padding:0 $space 0 0;
-			}
+            > a {
+                grid-column: span 3;
+                display: block;
+            }
 
-			.website {
-				border:1px solid slategrey;
-				border-radius: 3px;
-				padding-top: $space*.75;
-				position: relative;
-				background-color: gainsboro;
+            @media screen and (min-width: $bp-md) {
+                > a {
+                    padding-left: 3rem;
+                }
+            }
 
-				&::before {
-					content:'';
-					position: absolute;
-					top: $space*.75;
-					width: 100%;
-					height: 1px;
-					background-color: lightslategrey;
-				}
+	        @media screen and (min-width: $bp-lg) {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr); 
+
+                > a {
+                    padding-left: 0;
+                }
 			}
 		}
 	}

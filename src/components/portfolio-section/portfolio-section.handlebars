@@ -4,29 +4,28 @@
         <h2 class="section-title">{{sectionTitle}}</h2>
         {{{sectionDescription}}}
     </article>
+    {{#if lists}}
+    <div class="lists">
+      {{> lists lists }}
+    </div>
+    {{/if}}
     {{#if caseStudies}}
     <div class="case-studies">
         <ul>
         {{#each caseStudies}}
             <li>
-                <a href="{{link}}" class="case-study--title">
-                    <h3 class="h5">{{client}}</h3>
-                    <h3 class="h4">{{title}}</h3>
+                <a href="{{link}}">
+                    <div class="case-study--title">
+                        <h3 class="h5">{{client}}</h3>
+                        <h3>{{title}}</h3>
+                    </div>
+                    <div class="img-wrap">
+                        <div class="{{imgClass}}">{{{image}}}</div>
+                    </div>
                 </a>
-                <div class="actions">
-                    {{#if externalLink}}
-                    <a class="btn" href="{{externalLink.url}}">{{externalLink.label}}</a>
-                    {{/if}}
-                    <a href="{{link}}">details</a>
-                </div>
             </li>
         {{/each}}
         </ul>
-    </div>
-    {{/if}}
-    {{#if lists}}
-    <div class="lists">
-      {{> lists lists }}
     </div>
     {{/if}}
 </section>

@@ -10,45 +10,57 @@ body {
 
 .circle {
 	position: absolute;
-  width: 18vw;
-  height: 18vw;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  width: 40vw;
+  height: 40vw;
   border-radius: 50%;
-  background-color: rgba($sundrop, .5);
+  background-color: $sundrop;
   pointer-events: none;
-  transform: translate3d(100vw, 8vh, -3vh) scale(6);
-  z-index: -1;
+  transform: translate3d(-50vw, -80vh, -3vh) scale(1.2);
+  z-index: 5;
+
+  @media screen and (min-width: $bp-sm) {
+    transform: translate3d(-30vw, -80vh, -3vh) scale(1);
+    opacity: 0.7;
+  }
 
 
   @media screen and (min-width: $bp-sm) {
-    width: 100px;
-    height: 100px;
+    /*width: 100px;
+    height: 100px;*/
   }
 
   &.-c2 {
-  	transform: translate3d(67vw, 80vh, -4vh) scale(2.25);
-  	background-color: rgba($sundrop, .25);
+  	transform: translate3d(87vw, 30vh, -4vh) scale(0.5);
+  	background-color: $sundrop;
+    opacity: 0.25;
+
+    @media screen and (min-width: $bp-sm) {
+      transform: translate3d(67vw, 30vh, -4vh) scale(0.35);
+      opacity: 0.45;
+    }
   }
 }
 
 .circle.-bio {
   z-index: 2;
-  opacity: 0.15;
-  mix-blend-mode: multiply;
+  opacity: 0.05;
   transition: all $duration*1.75 ease $duration*.25;
-  transform: translate3d(36vw, 34vh, -2vh) scale(2.25);
+  transform: translate3d(36vw, 30vh, -2vh) scale(2.25);
   width: 18vw;
   height: 18vw;
 
   @media screen and (min-width: $bp-md) {
-    transform:  translate3d(-10vw, 49vh, -2vh) scale(0.7);
+    transform:  translate3d(-10vw, 45vh, -2vh) scale(0.7);
   }
 
   .loaded & {
-    opacity: .35;
-    transform: translate3d(32vw, 32vh, -2vh) scale(2.75);
+    opacity: .15;
+    transform: translate3d(32vw, 30vh, -2vh) scale(2.75);
 
     @media screen and (min-width: $bp-md) {
-      transform: translate3d(-14vw, 40vh, -2vh);
+      transform: translate3d(-14vw, 36vh, -2vh);
     }
   }
 }
@@ -111,4 +123,41 @@ body {
 
 .-mb {
   margin-bottom: $space*2;
+}
+
+.main .website {
+  border:1px solid slategrey;
+  border-radius: 3px;
+  padding-top: $space*.75;
+  position: relative;
+  background-color: gainsboro;
+  display: block;
+  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.4);
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: gainsboro;
+  }
+
+  &::before {
+    content:'';
+    position: absolute;
+    top: $space*.75;
+    width: 100%;
+    height: 1px;
+    background-color: lightslategrey;
+  }
+
+  &::after {
+    content:'';
+    position: absolute;
+    top: $space*.125;
+    right: $space*.25;
+    width: $space*.5;
+    height: $space*.5;
+    background-color: #aaa;
+    border-radius: 50%;
+  }
+
 }

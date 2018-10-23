@@ -2,12 +2,14 @@
 	"portfolioSections": [
     {
       "sectionTitle": "Initial concept → deployment",
-      "sectionDescription": "<p>I enjoy participating in every stage of a digital project—from defining the project to contributing code. A decade&rsquo;s worth of creative direction and project mgmt experience allows me to take a leadership role as needed.</p><p>As a UX designer, I&rsquo;ve helped shape the overall concept and objectives of a project, and then as a creative director/project manager I&rsquo;ve guided an iterative process of design and development. In most cases I&rsquo;ve also personally designed the visual and interactive experience and/or heavily collaborated in the code to bring it all to life.</p>",
+      "sectionDescription": "<p>I enjoy participating in every stage of a digital project—from defining the project to contributing code. A decade&rsquo;s worth of creative direction and project mgmt experience allows me to take a leadership role as needed.</p><!--<p>As a UX designer, I&rsquo;ve helped shape the overall concept and objectives of a project, and then as a creative director/project manager I&rsquo;ve guided an iterative process of design and development. In most cases I&rsquo;ve also personally designed the visual and interactive experience and/or heavily collaborated in the code to bring it all to life.</p>-->",
       "caseStudies": [
         {
           "link":"./plus-five",
           "client": "Capital One",
           "title": "+Five short film player",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": "website",
           "externalLink": {
             "url": "http://videodemo1.team-eight.com",
             "label": "demo"
@@ -17,6 +19,8 @@
           "link":"./egan",
           "client": "Jennifer Egan",
           "title": "Experimental, immersive experience",
+          "image": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-3-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 3\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-3-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-3-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-3-600x491.jpg 600w\">",
+          "imgClass": "website",
           "externalLink": {
             "url": "http://jenniferegan.com",
             "label": "site"
@@ -25,7 +29,9 @@
         {
           "link":"./cms",
           "client": "Custom Websites",
-          "title": "Assorted custom sites from scratch"
+          "title": "Assorted custom sites from scratch",
+          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/t8-1.png\" srcset=\"/img/t8-1-1500.png 1500w, /img/t8-1-1000.png 1000w, /img/t8-1-660.png 660w\" alt=\"Screenshot of the Team Eight Website\">",
+          "imgClass": "website"
         }
       ],
       "lists": [
@@ -58,17 +64,23 @@
         {
           "link":"./ux-reviews",
           "client": "Corgibytes",
-          "title": "UX reviews for various clients"
+          "title": "UX reviews for various clients",
+          "image": "<img width=\"1500\" height=\"805\" src=\"/img/ux-review.png\" alt=\"Image of sample UX review materials\" srcset=\"/img/ux-review-1500.png 1500w, /img/ux-review-1000.png 1000w, /img/ux-review-660.png 660w\">",
+          "imgClass": "website"
         },
         {
           "link":"./children-incorporated",
           "client": "Children Incorporated",
-          "title": "Donor MGMT system redesign"
+          "title": "Donor MGMT system redesign",
+          "image": "<img width=\"1200\" height=\"1350\" src=\"https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept.jpg?x12325\" alt=\"Concept for a new sponsorship page\" srcset=\"https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept.jpg 1200w, https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept-222x250.jpg 222w, https://team-eight.com/wp-content/uploads/2016/10/sponsor-concept-600x675.jpg 600w\">",
+          "imgClass": "website"
         },
         {
           "link":"./plugin",
           "client": "Plugin App",
-          "title": "Discovery and prototyping"
+          "title": "Discovery and prototyping",
+          "image": "<img width=\"2000\" height=\"2000\" src=\"/img/plugin-game.png\" alt=\"Clickable prototype screenshot of the Plugin Video sharing screen\" srcset=\"/img/plugin-game-1500.png 1500w, /img/plugin-game-1000.png 1000w, /img/plugin-game-660.png 660w\">",
+          "imgClass": "website"
         }
       ],
       "lists": [
@@ -100,17 +112,23 @@
         {
           "link":"./smc",
           "client": "The Smithsonian Channel",
-          "title": "Streaming app for Samsung TV"
+          "title": "Streaming app for Samsung TV",
+          "image": "<img width=\"2000\" height=\"2658\" src=\"/img/smc.png\" alt=\"Screenshot of the SMC TV App\" srcset=\"/img/smc-1500.png 1500w, /img/smc-1000.png 1000w, /img/smc-660.png 660w\">",
+          "imgClass": "website"
         },
         {
           "link":"./resurgent",
           "client": "Resurgent",
-          "title": "React mobile app"
+          "title": "React mobile app",
+          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/t8-1.png\" srcset=\"/img/t8-1-1500.png 1500w, /img/t8-1-1000.png 1000w, /img/t8-1-660.png 660w\" alt=\"Screenshot of the Team Eight Website\">",
+          "imgClass": "website"
         },
         {
           "link":"./front-end",
           "client": "Assorted clients and partners",
-          "title": "CMS and eCommerce sites"
+          "title": "CMS and eCommerce sites",
+          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/cb-1.png\" srcset=\"/img/cb-1-1500.png 1500w, /img/cb-1-1000.png 1000w, /img/cb-1-660.png 660w\" alt=\"Screenshot of the Corgibytes Website\">",
+          "imgClass": "website"
         }
       ],
       "lists": [
