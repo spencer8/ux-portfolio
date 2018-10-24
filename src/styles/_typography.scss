@@ -158,7 +158,7 @@ a.btn {
 	z-index: 2;
 
 	span {
-		padding: $space*2 0 0;
+		padding: calc(7vh + #{$space*2}) 0 0;
 		display: block;
 		position: absolute;
 		writing-mode: vertical-rl;

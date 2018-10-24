@@ -1,10 +1,13 @@
 .portfolio-section {
 	.lists {
 		grid-column: 2 / span 10;
-		display: flex;
+
+		@media screen and (min-width: $bp-sm) {
+			display: flex;
+		}
 
 		@media screen and (min-width: $bp-md) {
-			grid-column: 8 / span 5;
+			grid-column: 8 / span 4;
 			flex-direction: column;
 			padding-top: 2.75*$space;
 
@@ -24,11 +27,16 @@
 		@media screen and (min-width: $bp-lg) {
 			grid-column: 7 / span 5;
 			flex-direction: row;
-			padding-left: 2rem;
 
 			ul:first-child {
 				margin-bottom: 0;	
 			}
 		}
 	}
+}
+
+.ppage .lists {
+	@media screen and (min-width: $bp-lg) {
+			padding-left: 2 * $space;
+		}
 }

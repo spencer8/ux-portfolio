@@ -2,36 +2,70 @@
 	"portfolioSections": [
     {
       "sectionTitle": "Initial concept → deployment",
-      "sectionDescription": "<p>I enjoy participating in every stage of a digital project—from defining the project to contributing code. A decade&rsquo;s worth of creative direction and project mgmt experience allows me to take a leadership role as needed.</p><!--<p>As a UX designer, I&rsquo;ve helped shape the overall concept and objectives of a project, and then as a creative director/project manager I&rsquo;ve guided an iterative process of design and development. In most cases I&rsquo;ve also personally designed the visual and interactive experience and/or heavily collaborated in the code to bring it all to life.</p>-->",
-      "caseStudies": [
+      "anchorId": "overview",
+      "anchorLabel": "Overview",
+      "sectionDescription": "<p>I enjoy participating in every stage of a digital project—from defining the product to contributing code. Over a decade&rsquo;s worth of creative direction and project mgmt experience allows me to take a leadership role as needed.</p><p>As a UX designer, I&rsquo;ve helped shape the overall concept and objectives of a project, and then as a creative director/project manager I&rsquo;ve guided an iterative process of design and development. In most cases I&rsquo;ve also personally designed the visual and interactive experience and/or heavily collaborated in the code to bring it all to life.</p>",
+      "clientsLabel": "Selected clients and partners, past and present",
+      "clients": [
         {
+          "title": "10up",
           "link":"./plus-five",
-          "client": "Capital One",
-          "title": "+Five short film player",
           "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
-          "imgClass": "website",
-          "externalLink": {
-            "url": "http://videodemo1.team-eight.com",
-            "label": "demo"
-          }
+          "imgClass": ""
         },
         {
-          "link":"./egan",
-          "client": "Jennifer Egan",
-          "title": "Experimental, immersive experience",
-          "image": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-3-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 3\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-3-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-3-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-3-600x491.jpg 600w\">",
-          "imgClass": "website",
-          "externalLink": {
-            "url": "http://jenniferegan.com",
-            "label": "site"
-          }
+          "title": "Capital One",
+          "link":"./plus-five",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": ""
         },
         {
-          "link":"./cms",
-          "client": "Custom Websites",
-          "title": "Assorted custom sites from scratch",
-          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/t8-1.png\" srcset=\"/img/t8-1-1500.png 1500w, /img/t8-1-1000.png 1000w, /img/t8-1-660.png 660w\" alt=\"Screenshot of the Team Eight Website\">",
-          "imgClass": "website"
+          "title": "Children Incorporated",
+          "link":"./plus-five",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": ""
+        },
+        {
+          "title": "Corgibytes",
+          "link":"./plus-five",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": ""
+        },
+        {
+          "title": "Empirical",
+          "link":"./plus-five",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": ""
+        },
+        {
+          "title": "Foster Made",
+          "link":"./plus-five",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": ""
+        },
+        {
+          "title": "RTS Labs",
+          "link":"./plus-five",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": ""
+        },
+        {
+          "title": "Team Eight",
+          "link":"./plus-five",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": ""
+        },
+        {
+          "title": "Virginia Museum of Fine Arts",
+          "link":"./plus-five",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": ""
+        },
+        {
+          "title": "Virginia Department of Health",
+          "link":"./plus-five",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": ""
         }
       ],
       "lists": [
@@ -41,25 +75,30 @@
             "project manager",
             "ux designer",
             "creative director",
+            "team lead",
+            "operations and business development",
             "interaction designer",
             "front-end developer"
           ]
         },
         {
-          "heading": "Deliverables delivered",
+          "heading": "Notes to live by",
           "items": [
-            "user experience design",
-            "interaction/visual design",
-            "content planning and architecture",
-            "development: HTML, CSS, JS, PHP"
+            "clarify the client objectives",
+            "understand the user",
+            "support the team",
+            "communicate constantly and consistently",
+            "follow an intentional process",
+            "improve the process"
           ]
         }
-      ],
-      "circle": "-c1"
+      ]
     },
     {
       "sectionTitle": "Let's start with UX",
-      "sectionDescription": "<p>Maybe where user experience ends and where other things like user interface design or visual design start is up for discussion. Ultimately, I don&rsquo;t think being precise here matters much. I do feel strongly that the values and principles that drive user experience design need to be supported in every step of the design/development process.</p><p>I use my role in any project to make sure the business objectives are considered in the context of the user&rsquo;s needs. Then I advocate for these considerations to be present at every step. Outside of that, I believe in being flexible and clarifying priorities: every project needs a tailored blend of UX practices, design love and technical know-how.</p>",
+      "anchorId": "ux",
+      "anchorLabel": "UX Design",
+      "sectionDescription": "<p>Maybe where user experience ends and where other things like user interface design start is up for discussion. Ultimately, I don&rsquo;t think being precise here matters much. I do feel strongly that the values and principles that drive user experience design need to be supported in every step of the design/development process.</p><p>I use my role in any project to make sure the business objectives are considered in the context of the user&rsquo;s needs. Then I advocate for these considerations to be present at every step. Outside of that, I believe in being flexible and clarifying priorities: every project needs a tailored blend of UX practices, design love and technical know-how.</p>",
       "caseStudies": [
         {
           "link":"./ux-reviews",
@@ -95,10 +134,70 @@
         {
           "heading": "Deliverables delivered",
           "items": [
-            "wireflows",
-            "wireframes",
-            "clickable prototypes",
-            "UX audits"
+            "UX audits",
+            "product strategy briefs",
+            "user personas",
+            "content plans",
+            "wireflows"
+          ]
+        }
+      ],
+      "circle": "-c1"
+    },
+    {
+      "sectionTitle": "Designing for humans",
+      "anchorId": "ixd",
+      "anchorLabel": "Interaction Design",
+      "sectionDescription": "<p>Translating UX objectives and priorities into effective and impactful interactive experiences is very satisfying for me. Drawing on my experience as a designer, I enjoy creating tools and solutions in the form of digital interfaces.</p><p>This part of the process tends to become the focal point of so much rich collaboration between designers, developers and the client—and I love being in the middle of it.",
+      "caseStudies": [
+        {
+          "link":"./plus-five",
+          "client": "Capital One",
+          "title": "+Five short film player",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "imgClass": "website",
+          "externalLink": {
+            "url": "http://videodemo1.team-eight.com",
+            "label": "demo"
+          }
+        },
+        {
+          "link":"./egan",
+          "client": "Jennifer Egan",
+          "title": "Experimental, immersive experience",
+          "image": "<img width=\"1300\" height=\"1065\" src=\"https://team-eight.com/wp-content/uploads/2018/04/home-3-1300x1065.jpg?x12325\" alt=\"Jennifer Egan Home page - Screen 3\" sizes=\"(max-width: 1300px) 100vw, 1300px\" srcset=\"https://team-eight.com/wp-content/uploads/2018/04/home-3-1300x1065.jpg 1300w, https://team-eight.com/wp-content/uploads/2018/04/home-3-222x182.jpg 222w, https://team-eight.com/wp-content/uploads/2018/04/home-3-600x491.jpg 600w\">",
+          "imgClass": "website",
+          "externalLink": {
+            "url": "http://jenniferegan.com",
+            "label": "site"
+          }
+        },
+        {
+          "link":"./cms",
+          "client": "Custom Websites",
+          "title": "Assorted custom sites from scratch",
+          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/t8-1.png\" srcset=\"/img/t8-1-1500.png 1500w, /img/t8-1-1000.png 1000w, /img/t8-1-660.png 660w\" alt=\"Screenshot of the Team Eight Website\">",
+          "imgClass": "website"
+        }
+      ],
+      "lists": [
+        {
+          "heading": "Practices practiced",
+          "items": [
+            "wireframing",
+            "user interaction analysis",
+            "visual design",
+            "animation and interaction",
+            "prototyping"
+          ]
+        },
+        {
+          "heading": "Deliverables delivered",
+          "items": [
+            "wireframes and flows",
+            "high fidelity mockups",
+            "coded components",
+            "clickable prototypes"
           ]
         }
       ],
@@ -106,6 +205,8 @@
     },
     {
       "sectionTitle": "Focus on the front-end",
+      "anchorId": "front-end",
+      "anchorLabel": "Front end development",
       "sectionDescription": "<p>I love being on a team. In some cases, I'll take on the role of the front-end developer if design and UX has already been handled. When creating or updating the HTML, CSS and JS of new or existing projects, I try to bake in accessibility and performance while bringing the interactive experience to life.</p><p>Often, these are opportunities to challenge my skills and learn a ton from the other designers and developers on the project.</p>",
       "caseStudies": [
         {
@@ -123,7 +224,7 @@
           "imgClass": "website"
         },
         {
-          "link":"./front-end",
+          "link":"./cms",
           "client": "Assorted clients and partners",
           "title": "CMS and eCommerce sites",
           "image": "<img width=\"2000\" height=\"1315\" src=\"/img/cb-1.png\" srcset=\"/img/cb-1-1500.png 1500w, /img/cb-1-1000.png 1000w, /img/cb-1-660.png 660w\" alt=\"Screenshot of the Corgibytes Website\">",

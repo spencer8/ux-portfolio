@@ -1,4 +1,7 @@
 {{#each portfolioSections }}
+{{#if anchorId}}
+<h5 id="{{anchorId}}" class="anchor label"><span>{{anchorLabel}}</span></h5>
+{{/if}}
 <section class="portfolio-section">
     <article>
         <h2 class="section-title">{{sectionTitle}}</h2>
@@ -23,6 +26,18 @@
                         <div class="{{imgClass}}">{{{image}}}</div>
                     </div>
                 </a>
+            </li>
+        {{/each}}
+        </ul>
+    </div>
+    {{/if}}
+    {{#if clients}}
+    <div class="clients lists">
+        <h4>{{clientsLabel}}</h4>
+        <ul>
+        {{#each clients}}
+            <li>
+                <a href="{{link}}">{{title}}</a>
             </li>
         {{/each}}
         </ul>

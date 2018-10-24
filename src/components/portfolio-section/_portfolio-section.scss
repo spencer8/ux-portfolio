@@ -1,6 +1,5 @@
 .portfolio-section {
-	min-height: 85vh;
-  margin: 15vh 0;
+  margin: 20vh 0 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -59,7 +58,7 @@
 				width: $space/2;
 				height: $space*10;
 				background-color: $teal;
-				top: $space/2;
+				top: $space/4;
 				left: -$space*2;
 
 				@media screen and (min-width: $bp-sm) {
@@ -90,7 +89,7 @@
 		}
 
 		@media screen and (min-width: $bp-lg) {
-			grid-column: 4 / span 8;
+			grid-column: 5 / span 7;
 		}
 
 		.img-wrap {
@@ -260,6 +259,18 @@
 				@media screen and (min-width: $bp-md) {
 					margin: 0 0 0 $space;
 				}
+			}
+		}
+	}
+
+	.clients.lists {
+		display: block;
+    padding-top: 0;
+
+    @media screen and (min-width: $bp-sm) {
+			ul {
+				column-count: 2;
+				column-gap: $space;
 			}
 		}
 	}
