@@ -12,16 +12,16 @@ body {
 	position: absolute;
   opacity: 0.5;
   mix-blend-mode: multiply;
-  width: 40vw;
-  height: 40vw;
+  width: 6vw;
+  height: 6vw;
   border-radius: 50%;
   background-color: $sundrop;
   pointer-events: none;
-  transform: translate3d(-50vw, -80vh, -3vh) scale(1.2);
+  transform: translate3d(-50vw, 0vh, -7vh) scale(1.2);
   z-index: 5;
 
   @media screen and (min-width: $bp-sm) {
-    transform: translate3d(-30vw, -80vh, -3vh) scale(1);
+    transform: translate3d(-50vw, 0vh, -7vh) scale(1);
     opacity: 0.7;
   }
 

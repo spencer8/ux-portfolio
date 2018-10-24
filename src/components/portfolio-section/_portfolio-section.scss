@@ -97,7 +97,7 @@
 			position: relative;
 
 			@media screen and (min-width: $bp-sm) {
-				background: radial-gradient(ellipse at center, lighten($pistachio, 20%) 35%, lighten($pistachio, 15%) 100%);
+				background: radial-gradient(ellipse at center, white 35%, $creme 100%);
 				padding:5%;
 				flex: 0 0 62.5%;
 				background-color: $creme;
@@ -125,14 +125,15 @@
 
 		li > a {
 			box-sizing: border-box;
-			margin: 0 0 $space*4;
+			margin: 0;
 			position: relative;
 			display: block;
-			background: radial-gradient(ellipse at center, lighten($pistachio, 18%) 35%, lighten($pistachio, 10%) 100%);
 			padding: $space*3 $space*2 $space*2;
+			background-color: $creme;
 
 			@media screen and (min-width: $bp-sm) {
 				padding:0;
+				margin: 0 0 $space*4;
 				background: transparent;
 			}
 
