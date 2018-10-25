@@ -12,8 +12,8 @@ body {
 	position: absolute;
   opacity: 0.5;
   mix-blend-mode: multiply;
-  width: 6vw;
-  height: 6vw;
+  width: calc(5vw + 100px);
+  height: calc(5vw + 100px);
   border-radius: 50%;
   background-color: $sundrop;
   pointer-events: none;
@@ -23,12 +23,6 @@ body {
   @media screen and (min-width: $bp-sm) {
     transform: translate3d(-50vw, 0vh, -7vh) scale(1);
     opacity: 0.7;
-  }
-
-
-  @media screen and (min-width: $bp-sm) {
-    /*width: 100px;
-    height: 100px;*/
   }
 
   &.-c2 {
@@ -125,20 +119,28 @@ body {
   margin-bottom: $space*2;
 }
 
-.main .website {
-  border:1px solid slategrey;
+.main .website,
+.main .mobile-mock {
   border-radius: 3px;
-  padding-top: $space*.75;
   position: relative;
-  background-color: gainsboro;
   display: block;
-  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 10px 40px 0px rgba($grey-dark, 0.35);
+  overflow: hidden;
+}
 
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: gainsboro;
-  }
+.mobile-mock {
+    max-width: 75%;
+    margin: 10% auto;
+
+    &.-portrait {
+      max-width: 38%;
+      margin: 0 auto;
+    }
+}
+
+.main .website {
+  background-color: #cecbcb;
+  padding-top: $space*.75;
 
   &::before {
     content:'';
@@ -146,7 +148,7 @@ body {
     top: $space*.75;
     width: 100%;
     height: 1px;
-    background-color: lightslategrey;
+    background-color: #bcc7d2;
   }
 
   &::after {

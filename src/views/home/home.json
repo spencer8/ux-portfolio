@@ -4,67 +4,57 @@
       "sectionTitle": "Initial concept → deployment",
       "anchorId": "overview",
       "anchorLabel": "Overview",
-      "sectionDescription": "<p>I enjoy participating in every stage of a digital project—from defining the product to contributing code. Over a decade&rsquo;s worth of creative direction and project mgmt experience allows me to take a leadership role as needed.</p><p>As a UX designer, I&rsquo;ve helped shape the overall concept and objectives of a project, and then as a creative director/project manager I&rsquo;ve guided an iterative process of design and development. In most cases I&rsquo;ve also personally designed the visual and interactive experience and/or heavily collaborated in the code to bring it all to life.</p>",
-      "clientsLabel": "Selected clients and partners, past and present",
+      "sectionDescription": "<p>I enjoy participating in every stage of a digital project—from defining the product to contributing code. Over a decade&rsquo;s worth of creative direction and project mgmt experience allows me to take a leadership role&nbsp;as&nbsp;needed.</p><p>As a UX designer, I&rsquo;ve helped shape the overall concept and objectives of a project, and then as a creative director/project manager I&rsquo;ve guided an iterative process of design and development. In most cases I&rsquo;ve also personally designed the visual and interactive experience and/or heavily collaborated in the code to bring it all&nbsp;to&nbsp;life.</p>",
+      "clientsLabel": "Selected recent clients and&nbsp;partners",
       "clients": [
         {
           "title": "10up",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"https://10up.com/",
           "imgClass": ""
         },
         {
           "title": "Capital One",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"https://www.capitalone.com",
           "imgClass": ""
         },
         {
           "title": "Children Incorporated",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"https://childrenincorporated.org/",
           "imgClass": ""
         },
         {
           "title": "Corgibytes",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"https://corgibytes.com/",
           "imgClass": ""
         },
         {
           "title": "Empirical",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"https://www.goempirical.com/",
           "imgClass": ""
         },
         {
           "title": "Foster Made",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"https://fostermade.co/",
           "imgClass": ""
         },
         {
           "title": "RTS Labs",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"https://rtslabs.com/",
           "imgClass": ""
         },
         {
           "title": "Team Eight",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"https://team-eight.com",
           "imgClass": ""
         },
         {
           "title": "Virginia Museum of Fine Arts",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"https://www.vmfa.museum/",
           "imgClass": ""
         },
         {
           "title": "Virginia Department of Health",
-          "link":"./plus-five",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "link":"http://www.vdh.virginia.gov/",
           "imgClass": ""
         }
       ],
@@ -98,7 +88,7 @@
       "sectionTitle": "Let's start with UX",
       "anchorId": "ux",
       "anchorLabel": "UX Design",
-      "sectionDescription": "<p>Maybe where user experience ends and where other things like user interface design start is up for discussion. Ultimately, I don&rsquo;t think being precise here matters much. I do feel strongly that the values and principles that drive user experience design need to be supported in every step of the design/development process.</p><p>I use my role in any project to make sure the business objectives are considered in the context of the user&rsquo;s needs. Then I advocate for these considerations to be present at every step. Outside of that, I believe in being flexible and clarifying priorities: every project needs a tailored blend of UX practices, design love and technical know-how.</p>",
+      "sectionDescription": "<p>Maybe where user experience ends and where other things like user interface design start is up for discussion. Ultimately, I don&rsquo;t think being precise here matters much. I do feel strongly that the values and principles that drive user experience design need to be supported in every step of the design/development&nbsp;process.</p><p>I use my role in any project to make sure the business objectives are considered in the context of the user&rsquo;s needs. Then I advocate for these considerations to be present at every step. Outside of that, I believe in being flexible and clarifying priorities: every project needs a tailored blend of UX practices, design love and technical&nbsp;know-how.</p>",
       "caseStudies": [
         {
           "link":"./ux-reviews",
@@ -118,7 +108,8 @@
           "link":"./plugin",
           "client": "Plugin App",
           "title": "Discovery and prototyping",
-          "image": "<img width=\"1306\" height=\"635\" src=\"/img/plugin-vcu.png\" alt=\"Clickable prototype screenshot of the Plugin Video sharing screen\" srcset=\"/img/plugin-vcu-1500.png 1500w, /img/plugin-vcu-1000.png 1000w, /img/plugin-vcu-660.png 660w\">"
+          "image": "<img width=\"1500\" height=\"750\" src=\"/img/plugin-vcu-1500.png\" alt=\"Clickable prototype screenshot of the Plugin Video sharing screen\" srcset=\"/img/plugin-vcu-1000.png 1000w, /img/plugin-vcu-660.png 660w\">",
+          "imgClass": "mobile-mock"
         }
       ],
       "lists": [
@@ -148,7 +139,7 @@
       "sectionTitle": "Designing for humans",
       "anchorId": "ixd",
       "anchorLabel": "Interaction Design",
-      "sectionDescription": "<p>Translating UX objectives and priorities into effective and impactful interactive experiences is very satisfying for me. Drawing on my experience as a designer, I enjoy creating tools and solutions in the form of digital interfaces.</p><p>This part of the process tends to become the focal point of so much rich collaboration between designers, developers and the client—and I love being in the middle of it.",
+      "sectionDescription": "<p>Translating UX objectives and priorities into effective and impactful interactive experiences is very satisfying for me. Drawing on my experience as a designer, I enjoy creating tools and solutions in the form of digital&nbsp;interfaces.</p><p>This part of the process tends to become the focal point of so much rich collaboration between designers, developers and the client—and I love being in the middle&nbsp;of&nbsp;it.",
       "caseStudies": [
         {
           "link":"./plus-five",
@@ -207,7 +198,7 @@
       "sectionTitle": "Focus on the front-end",
       "anchorId": "front-end",
       "anchorLabel": "Front end development",
-      "sectionDescription": "<p>I love being on a team. In some cases, I'll take on the role of the front-end developer if design and UX has already been handled. When creating or updating the HTML, CSS and JS of new or existing projects, I try to bake in accessibility and performance while bringing the interactive experience to life.</p><p>Often, these are opportunities to challenge my skills and learn a ton from the other designers and developers on the project.</p>",
+      "sectionDescription": "<p>I love being on a team. In some cases, I'll take on the role of the front-end developer if design and UX has already been handled. When creating or updating the HTML, CSS and JS of new or existing projects, I try to bake in accessibility and performance while bringing the interactive experience&nbsp;to&nbsp;life.</p><p>Often, these are opportunities to challenge my skills and learn a ton from the other designers and developers on&nbsp;the&nbsp;project.</p>",
       "caseStudies": [
         {
           "link":"./smc",
@@ -220,8 +211,8 @@
           "link":"./resurgent",
           "client": "Resurgent",
           "title": "React mobile app",
-          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/t8-1.png\" srcset=\"/img/t8-1-1500.png 1500w, /img/t8-1-1000.png 1000w, /img/t8-1-660.png 660w\" alt=\"Screenshot of the Team Eight Website\">",
-          "imgClass": "website"
+          "image": "<img width=\"750\" height=\"1500\" src=\"/img/resurgent-main.png\" srcset=\"/img/resurgent-main-1000.png 1000w, /img/resurgent-main-660.png 660w\" alt=\"Screenshot of the Resurgent Mobile Prototype\">",
+          "imgClass": "mobile-mock -portrait"
         },
         {
           "link":"./cms",
@@ -245,11 +236,11 @@
         {
           "heading": "Deliverables delivered",
           "items": [
-            "translate provided designs into code",
+            "translate provided designs into&nbsp;code",
             "site architecture",
             "performance &amp; accessibility",
             "HTML, CSS, JS",
-            "sometimes PHP, React, or other templating languages"
+            "sometimes PHP, React, or other templating&nbsp;languages"
           ]
         }
       ]

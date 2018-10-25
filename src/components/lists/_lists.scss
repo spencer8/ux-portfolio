@@ -2,6 +2,10 @@
 	.lists {
 		grid-column: 2 / span 10;
 
+		ul:first-child {
+			margin-bottom: $space;	
+		}
+
 		@media screen and (min-width: $bp-sm) {
 			display: flex;
 		}
@@ -17,10 +21,6 @@
 
 			&.-with-slider {
 				padding-top:5*$space;
-			}
-
-			ul:first-child {
-				margin-bottom: $space;	
 			}
 		}
 

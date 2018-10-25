@@ -1,3 +1,55 @@
+#overview + .portfolio-section {
+	background-color: lighten($creme, 5%);
+	margin-top: 0;
+	padding: 18vh 0;
+
+	@media screen and (min-width: $bp-md) {
+		grid-auto-flow: column;
+	}
+
+	> article {
+		grid-column: 2 / span 9;
+
+		@media screen and (min-width: $bp-md) {
+			grid-column: 7 / span 4;
+			padding-right:$space;
+		}
+
+		@media screen and (min-width: $bp-lg) {
+			grid-column: 7 / span 4;
+			padding-right: 0;
+
+			.section-title::after {
+				left: calc(-8rem - 100%);
+			}
+		}
+	}
+
+	.lists {
+		margin-top: 4*$space;
+		padding-top: 0;
+	}
+
+	.clients.lists {
+		padding-top: 0;
+		margin-top: 0;
+		flex-direction: column;
+		justify-content: flex-end;
+
+    ul {
+    	flex: initial;
+    }
+
+		@media screen and (min-width: $bp-md) {
+    	grid-column: 3 / span 3;
+    }
+
+		@media screen and (min-width: $bp-lg) {
+    	grid-column: 4 / span 2;
+    }
+	}
+}
+
 .portfolio-section {
   margin: 20vh 0 0;
 	display: flex;
@@ -96,6 +148,19 @@
 			box-sizing: border-box;
 			position: relative;
 
+			&::before {
+				transition: opacity $duration ease-out;
+				content: '';
+				position: absolute;
+				width: 100%;
+				top:0;
+				left:0;
+				height:100%;
+				background-color: $pistachio;
+				opacity: 0;
+			}
+
+
 			@media screen and (min-width: $bp-sm) {
 				background: radial-gradient(ellipse at center, white 35%, $creme 100%);
 				padding:5%;
@@ -153,6 +218,11 @@
 				&:hover,
 				&:focus {
 
+					.img-wrap::before {
+						transition: opacity $duration ease;
+						opacity:.6;
+					}
+
 					.case-study--title {
 						color: $red;
 						background-color: transparent;
@@ -174,7 +244,7 @@
 
 					.img-wrap > div {
 						transform: scale(1.02);
-						transition: transform $duration ease $duration/2;
+						transition: transform $duration ease;
 					}
 				}
 			}
@@ -260,18 +330,6 @@
 				@media screen and (min-width: $bp-md) {
 					margin: 0 0 0 $space;
 				}
-			}
-		}
-	}
-
-	.clients.lists {
-		display: block;
-    padding-top: 0;
-
-    @media screen and (min-width: $bp-sm) {
-			ul {
-				column-count: 2;
-				column-gap: $space;
 			}
 		}
 	}

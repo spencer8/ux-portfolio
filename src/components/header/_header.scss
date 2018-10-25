@@ -44,7 +44,8 @@
             a {
                 @include label();
                 @include font-sizing(15, 17);
-                padding: $space $space 0;
+                padding: .75*$space 1*$space .5*$space;
+                border-radius: 3px;
             }
         }
     }

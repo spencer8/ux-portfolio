@@ -15,7 +15,7 @@
 }
 
 .secondary {
-	grid-column: span 11;
+	grid-column: span 12;
 
 	@media screen and (min-width: $bp-md) {
 		grid-column: 6 / span 6;

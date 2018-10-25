@@ -3,6 +3,7 @@
 <h5 id="{{anchorId}}" class="anchor label"><span>{{anchorLabel}}</span></h5>
 {{/if}}
 <section class="portfolio-section">
+{{#if caseStudies}}
     <article>
         <h2 class="section-title">{{sectionTitle}}</h2>
         {{{sectionDescription}}}
@@ -12,7 +13,6 @@
       {{> lists lists }}
     </div>
     {{/if}}
-    {{#if caseStudies}}
     <div class="case-studies">
         <ul>
         {{#each caseStudies}}
@@ -30,19 +30,29 @@
         {{/each}}
         </ul>
     </div>
-    {{/if}}
-    {{#if clients}}
+{{/if}}
+{{#if clients}}
+
+    <article>
+        <h2 class="section-title">{{sectionTitle}}</h2>
+        {{{sectionDescription}}}
+        
+        {{#if lists}}
+        <div class="lists">
+          {{> lists lists }}
+        </div>
+        {{/if}}
+    </article>
+    
     <div class="clients lists">
-        <h4>{{clientsLabel}}</h4>
+        <h4>{{{clientsLabel}}}</h4>
         <ul>
         {{#each clients}}
-            <li>
-                <a href="{{link}}">{{title}}</a>
-            </li>
+            <li><a href="{{link}}">{{{title}}}</a></li>
         {{/each}}
         </ul>
     </div>
-    {{/if}}
+{{/if}}
 </section>
 {{#if circle}}
 <div class="circle {{circle}}"></div>
