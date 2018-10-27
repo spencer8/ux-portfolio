@@ -120,22 +120,100 @@ body {
 }
 
 .main .website,
-.main .mobile-mock {
+.main .mobile-mock,
+.main .tv {
   border-radius: 3px;
   position: relative;
   display: block;
   box-shadow: 0px 10px 40px 0px rgba($grey-dark, 0.35);
   overflow: hidden;
+
+  img {
+    display: block;
+    background-color: $grey-dark;
+  }
+}
+
+.secondary {
+  .website {
+    margin: 0 $space $space*2;
+
+    @media screen and (min-width: $bp-md) {
+        margin:0 0 $space*2;
+    }
+  }
+
+  .owl-item .website {
+    margin:0;
+  }
+
+  .tv {
+    margin: 0 $space $space*3;
+
+    @media screen and (min-width: $bp-md) {
+        margin:0 0 $space*3;
+    }
+  }
+
+  .mobile-mock {
+    margin: 0 $space $space;
+  }
+
+  .flex .mobile-mock {
+      margin: 0 $space $space 0;
+
+      &:first-child {
+        margin-left:$space;
+
+        @media screen and (min-width: $bp-md) {
+          margin-left:0;
+        }
+      }
+
+      &:last-child {
+        margin-right:0;
+      }
+    }
+}
+
+.main .tv {
+  border: 3px #444 solid;
+  box-sizing: border-box;
+  overflow: visible;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 4px;
+    left: 30%;
+    bottom: -16px;
+    background: #444;
+    border-radius: 0 0 3px 3px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: calc(40% - 14px);
+    height: 5%;
+    left: 30%;
+    bottom: -12px;
+    border-bottom: 9px solid #666;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+  }
 }
 
 .mobile-mock {
-    max-width: 75%;
-    margin: 10% auto;
+  border-radius: 3px;
+  max-width: 500px;
+  margin: 10% auto;
 
-    &.-portrait {
-      max-width: 38%;
-      margin: 0 auto;
-    }
+  &.-portrait {
+    max-width: 200px;
+    margin: 0 auto;
+  }
 }
 
 .main .website {

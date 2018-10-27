@@ -18,7 +18,7 @@
 	grid-column: span 12;
 
 	@media screen and (min-width: $bp-md) {
-		grid-column: 6 / span 6;
+		grid-column: 8 / span 4;
 	}
 
 	@media screen and (min-width: $bp-lg) {
@@ -194,6 +194,14 @@
 	}
 
 	.owl-carousel {
+
+        .owl-stage-outer {
+            overflow: visible;
+
+            /*@media screen and (min-width: $bp-md) {
+                overflow: hidden;
+            }*/
+        }
 		
 		.slide-wrap {
             width: 100%;  

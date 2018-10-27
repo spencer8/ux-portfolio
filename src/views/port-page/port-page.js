@@ -15,7 +15,7 @@ $(document).ready(function(){
     $('.slider-counter').text(currSlide+ ' / ' + totalSlides);
   }).owlCarousel({
     items:1,
-    margin:32,
+    margin:64,
     nav: true,
     loop: true,
     dots: false,

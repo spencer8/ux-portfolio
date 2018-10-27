@@ -1,0 +1,33 @@
+{
+				"client": "In progress",
+				"title": "Streaming App for Samsung&nbsp;TV",
+				"description": "<p>This project's end-client is well-known for producing original non-fiction programming that covers a wide range of historical, scientific and cultural subjects. As <a href=\"https://goempirical.com\">Empirical</a>, we are subcontracting with a development partner who is responsible for producing versions of this client&rsquo;s streaming video app across multiple platforms&mdash;from Android to Apple TV. Our task is to develop the Samsung TV version of the app based on designs and specifications provided by our partner. We're about midway through this project with most of the UI and data queries in place.</p><p>From a user experience design perspective, working on a TV device has been new. I&rsquo;ve had to adapt much of my usual perception of user-screen interaction away from touch and keyboard driven devices for a remote driven paradigm.</p><p>Also, jumping in and learning how to work with the <a href=\"https://developer.tizen.org/development\">Tizen SDK</a>&nbsp;has been an interesting challenge, but this project was a great excuse to buy a really nice TV. :)</p>",
+				"mainImage": "<div class=\"tv\"><img width=\"1998\" height=\"11288\" src=\"/img/tv-app.png\" alt=\"graphic of smart tv app\" srcset=\"/img/tv-app-1500.png 1500w, /img/tv-app-1000.png 1000w, /img/tv-app-660.png 660w\"></div>",
+				"lists": [
+          {
+            "heading": "Features delivered",
+            "items": [
+              "Custom Samsung Smart TV app",
+              "Javascript + Tizen",
+              "Rich CSS3 animations"
+            ]
+          },
+          {
+            "heading": "My contributions",
+            "items": [
+              "Front-end development",
+              "HTML, CSS, javascript, handlebars"
+            ]
+          }
+        ],
+        "pagination": {
+	        "previous": {
+	        	"title": "Plugin App: Discovery and prototyping",
+	        	"link": "/plugin"
+	        },
+	        "next": {
+	        	"title": "React Mobile App",
+	        	"link": "/resurgent"
+	        }
+        }
+			}

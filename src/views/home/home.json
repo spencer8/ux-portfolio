@@ -145,7 +145,7 @@
           "link":"./plus-five",
           "client": "Capital One",
           "title": "+Five short film player",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">",
+          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/demo.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/demo-1500.png 1500w, /img/demo-1000.png 1000w, /img/demo-660.png 660w\">",
           "imgClass": "website",
           "externalLink": {
             "url": "http://videodemo1.team-eight.com",
@@ -201,11 +201,11 @@
       "sectionDescription": "<p>I love being on a team. In some cases, I'll take on the role of the front-end developer if design and UX has already been handled. When creating or updating the HTML, CSS and JS of new or existing projects, I try to bake in accessibility and performance while bringing the interactive experience&nbsp;to&nbsp;life.</p><p>Often, these are opportunities to challenge my skills and learn a ton from the other designers and developers on&nbsp;the&nbsp;project.</p>",
       "caseStudies": [
         {
-          "link":"./smc",
-          "client": "The Smithsonian Channel",
+          "link":"./smart-tv",
+          "client": "In progress",
           "title": "Streaming app for Samsung TV",
-          "image": "<img width=\"2000\" height=\"2658\" src=\"/img/smc.png\" alt=\"Screenshot of the SMC TV App\" srcset=\"/img/smc-1500.png 1500w, /img/smc-1000.png 1000w, /img/smc-660.png 660w\">",
-          "imgClass": "website"
+          "image": "<img width=\"1998\" height=\"11288\" src=\"/img/tv-app.png\" alt=\"graphic of smart tv app\" srcset=\"/img/tv-app-1500.png 1500w, /img/tv-app-1000.png 1000w, /img/tv-app-660.png 660w\">",
+          "imgClass": "tv"
         },
         {
           "link":"./resurgent",

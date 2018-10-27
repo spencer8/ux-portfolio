@@ -11,7 +11,7 @@ module.exports = {
 	entry: {
 		home: './src/views/home/home.js',
 		plusFive: './src/views/port-page/port-page.js',
-		smc: './src/views/port-page/port-page.js',
+		smartTV: './src/views/port-page/port-page.js',
 		egan: './src/views/port-page/port-page.js',
 		uxReviews: './src/views/port-page/port-page.js',
 		childrenIncorporated: './src/views/port-page/port-page.js',
@@ -86,10 +86,10 @@ module.exports = {
 		}),
 		new HtmlWebpackPlugin({
 			title: 'Streaming App for Samsung TV',
-			filename: 'smc/index.html',
+			filename: 'smart-tv/index.html',
 			template: './src/views/port-page/port-page.handlebars',
-			chunks: ['smc'],
-			hbsContext: require('./src/views/port-page/smc.json')
+			chunks: ['smartTV'],
+			hbsContext: require('./src/views/port-page/smart-tv.json')
 		}),
 		new HtmlWebpackPlugin({
 			title: 'Jennifer Egan: Experimental, Immersive Experience',
