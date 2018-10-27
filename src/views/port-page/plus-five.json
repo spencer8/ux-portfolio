@@ -2,7 +2,7 @@
 				"client": "Capital One",
 				"title": "+Five short film player",
 				"description": "<p class=\"emphasized\">This was an internal facing product containing proprietary client materials. For this demo, all client content has been replaced with random materials.</p><p class=\"-mb\"><a class=\"btn\" href=\"http://videodemo1.team-eight.com\">experience the demo</a></p><p>I partnered with <a href=\"https://goempirical.com\">Seba Pereyro</a> to create a custom video player experience for Capital One&rsquo;s CARD.AI department. They had produced a short film expressing the company&rsquo;s vision for their role in the future. The management team was interested in a delivery method that matched the high production value of the film. It needed to extend the modern/futuristic brand of CARD.AI and provide way for any of the 6,000+ staff to discover supporting information framed by the topic of the film.</p><p>I sketched out a fluid, video player featuring the ability to place &lsquo;nodes&rsquo; of secondary content directly on the player timeline. With a quick prototype we confirmed we could nest multiple custom players in a single page web browser app. Seba and I worked out the flow of the experience, the logic of the deceptively complex interactions, and the overall architecture of the app. As Seba iterated the prototype code into a more robust version of the player, I completed the visual design. Then I jumped into the codebase to flesh out the markup, styles and javascript that would drive the interactions and animation. As the project came together, I refined visual and interaction details as Seba polished the organization and quality of the code.</p>",
-				"mainImage": "<img width=\"2000\" height=\"2658\" src=\"/img/vid-title.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-title-1500.png 1500w, /img/vid-title-1000.png 1000w, /img/vid-title-660.png 660w\">",
+				"mainImage": "<img width=\"2000\" height=\"2658\" src=\"/img/vid-title.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-title-1500.png 2500w, /img/vid-title-1000.png 1800w, /img/vid-title-660.png 1200w\">",
 				"lists": [
           {
             "heading": "Deliverables delivered",
@@ -28,39 +28,39 @@
         		{
 	        		"imgClass": "",
 	        		"caption": "",
-	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 1500w, /img/vid-fall-1000.png 1000w, /img/vid-fall-660.png 660w\">"
+	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-fall.png\" class=\"attachment-large size-large\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-fall-1500.png 2500w, /img/vid-fall-1000.png 1800w, /img/vid-fall-660.png 1200w\">"
 	        	},
         		{
 	        		"imgClass": "",
 	        		"caption": "",
-	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-arrow.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-arrow-1500.png 1500w, /img/vid-arrow-1000.png 1000w, /img/vid-arrow-660.png 660w\">"
+	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-arrow.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-arrow-1500.png 2500w, /img/vid-arrow-1000.png 1800w, /img/vid-arrow-660.png 1200w\">"
 	        	},
 	        	{
 	        		"imgClass": "",
 	        		"caption": "",
-	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-node.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-node-1500.png 1500w, /img/vid-node-1000.png 1000w, /img/vid-node-660.png 660w\">"
+	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-node.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-node-1500.png 2500w, /img/vid-node-1000.png 1800w, /img/vid-node-660.png 1200w\">"
 	        	},
         		{
 	        		"imgClass": "",
 	        		"caption": "",
-	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/demo.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/demo-1500.png 1500w, /img/demo-1000.png 1000w, /img/demo-660.png 660w\">"
+	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/demo.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/demo-1500.png 2500w, /img/demo-1000.png 1800w, /img/demo-660.png 1200w\">"
 	        	},
 	        	{
 	        		"imgClass": "",
 	        		"caption": "",
-	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-anim.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-anim-1500.png 1500w, /img/vid-anim-1000.png 1000w, /img/vid-anim-660.png 660w\">"
+	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-anim.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-anim-1500.png 2500w, /img/vid-anim-1000.png 1800w, /img/vid-anim-660.png 1200w\">"
 	        	},
 	        	{
 	        		"imgClass": "",
 	        		"caption": "",
-	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-ba.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-ba-1500.png 1500w, /img/vid-ba-1000.png 1000w, /img/vid-ba-660.png 660w\">"
+	        		"img": "<img width=\"2000\" height=\"1250\" src=\"/img/vid-ba.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/vid-ba-1500.png 2500w, /img/vid-ba-1000.png 1800w, /img/vid-ba-660.png 1200w\">"
 	        	}
 	        ]
         },
         "pagination": {
 	        "previous": {
-	        	"title": "CMS and eCommerce development",
-	        	"link": "/cms"
+			    	"title": "Plugin App: Discovery and prototyping",
+			    	"link": "/plugin"
 	        },
 	        "next": {
 	        	"title": "Experimental, Immersive Experience",

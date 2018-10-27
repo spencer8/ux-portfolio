@@ -4,25 +4,25 @@
 				"description": "<p>Whether teaming up for a new build with a partner company, or jumping in on an existing site to iterate and improve, wearing the front-end hat is a joy. The focus on execution and efficiency is a refreshing contrast to the broader design thinking involved in UX and design tasks. Also, I beleive my perspective on design and UX is enriched by participating so heavily in development.</p><p>In each of these examples, development was my primary task, but I also either collobarated directly with the designers on the team or I identified and fulfilled UX and design needs when called for.",
         "mainSlider": [
           {
-            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/lvg-1.png\" srcset=\"/img/lvg-1-1500.png 1500w, /img/lvg-1-1000.png 1000w, /img/lvg-1-660.png 660w\" alt=\"Screenshot of the UVA Licensing and Ventures group Website\"></div>",
+            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/lvg-1.png\" srcset=\"/img/lvg-1-1500.png 2500w, /img/lvg-1-1000.png 1800w, /img/lvg-1-660.png 1200w\" alt=\"Screenshot of the UVA Licensing and Ventures group Website\"></div>",
             "title": "UVA Licensing and Ventures Group",
             "caption": "<p>Revisions to site architecture and design overhaul of key sections. Built on Craft CMS</p>",
             "url": "https://lvg.uva.edu"
           },
           {
-            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/cb-1.png\" srcset=\"/img/cb-1-1500.png 1500w, /img/cb-1-1000.png 1000w, /img/cb-1-660.png 660w\" alt=\"Screenshot of the Corgibytes Website\"></div>",
+            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/cb-1.png\" srcset=\"/img/cb-1-1500.png 2500w, /img/cb-1-1000.png 1800w, /img/cb-1-660.png 1200w\" alt=\"Screenshot of the Corgibytes Website\"></div>",
             "title": "Corgibytes | Marketing Website",
             "caption": "<p>Light UX audit to site. Design and feature additions to blog section. Built with jekyll.</p>",
             "url": "https://corgibytes.com"
           },
           {
-            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/bcng-1.png\" srcset=\"/img/bcng-1-1500.png 1500w, /img/bcng-1-1000.png 1000w, /img/bcng-1-660.png 660w\" alt=\"Screenshot of the Baby Change-N-Go Website\"></div>",
+            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/bcng-1.png\" srcset=\"/img/bcng-1-1500.png 2500w, /img/bcng-1-1000.png 1800w, /img/bcng-1-660.png 1200w\" alt=\"Screenshot of the Baby Change-N-Go Website\"></div>",
             "title": "Baby Change-N-Go | Shopify theme",
             "caption": "<p>Design consulting, then build from provided design. Extensive theme extension in Shopify.</p>",
-            "url": "#"
+            "url": "https://babychangengo.com"
           },
           {
-            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/pdi-1.png\" srcset=\"/img/pdi-1-1500.png 1500w, /img/pdi-1-1000.png 1000w, /img/pdi-1-660.png 660w\" alt=\"Screenshot of the PDI HC Website\"></div>",
+            "image": "<div class=\"website\"><img width=\"2000\" height=\"1315\" src=\"/img/pdi-1.png\" srcset=\"/img/pdi-1-1500.png 2500w, /img/pdi-1-1000.png 1800w, /img/pdi-1-660.png 1200w\" alt=\"Screenshot of the PDI HC Website\"></div>",
             "title": "PDI Healthcare and We Are PDI sites",
             "caption": "<p>For RTS Labs. Front-end developer for build of pdihc.com and wearepdi.com on WordPress.</p>",
             "url": "https://pdihc.com"
@@ -55,8 +55,8 @@
 	        	"link": "/resurgent"
 	        },
 	        "next": {
-	        	"title": "+Five short film player",
-	        	"link": "/plus-five"
+            "title": "UX Reviews",
+            "link": "/ux-reviews"
 	        }
         }
 			}

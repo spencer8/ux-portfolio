@@ -43,7 +43,7 @@
   		{
     		"imgClass": "",
     		"caption": "Concepts for mobile views",
-    		"img": "<img width=\"2000\" height=\"2658\" src=\"/img/ci.png\" alt=\"Screenshot of the Jennifer Egan Website\" srcset=\"/img/ci-1500.png 1500w, /img/ci-1000.png 1000w, /img/ci-660.png 660w\">"
+    		"img": "<img width=\"2000\" height=\"2658\" src=\"/img/ci.png\" alt=\"Screenshot of the Jennifer Egan Website\" srcset=\"/img/ci-1500.png 2500w, /img/ci-1000.png 1800w, /img/ci-660.png 1200w\">"
     	}
     ]
   },

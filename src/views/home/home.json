@@ -94,21 +94,21 @@
           "link":"./ux-reviews",
           "client": "Corgibytes",
           "title": "UX reviews for various clients",
-          "image": "<img width=\"1500\" height=\"805\" src=\"/img/ux-review.png\" alt=\"Image of sample UX review materials\" srcset=\"/img/ux-review-1500.png 1500w, /img/ux-review-1000.png 1000w, /img/ux-review-660.png 660w\">",
+          "image": "<img width=\"1500\" height=\"861\" src=\"/img/ux-review-1500.png\" alt=\"Image of sample UX review materials\" srcset=\"/img/ux-review-1000.png 1800w, /img/ux-review-660.png 1200w\">",
           "imgClass": "website"
         },
         {
           "link":"./children-incorporated",
           "client": "Children Incorporated",
           "title": "Donor MGMT system redesign",
-          "image": "<img width=\"1200\" height=\"729\" src=\"/img/dms.png\" alt=\"Image of Child Spnsorship feature\" srcset=\"/img/dms-1500.png 1500w, /img/dms-1000.png 1000w\">",
+          "image": "<img width=\"1200\" height=\"729\" src=\"/img/dms.png\" alt=\"Image of Child Spnsorship feature\" srcset=\"/img/dms-1500.png 2800w, /img/dms-1000.png 1800w\">",
           "imgClass": "website"
         },
         {
           "link":"./plugin",
           "client": "Plugin App",
           "title": "Discovery and prototyping",
-          "image": "<img width=\"1500\" height=\"750\" src=\"/img/plugin-vcu-1500.png\" alt=\"Clickable prototype screenshot of the Plugin Video sharing screen\" srcset=\"/img/plugin-vcu-1000.png 1000w, /img/plugin-vcu-660.png 660w\">",
+          "image": "<img width=\"1500\" height=\"750\" src=\"/img/plugin-vcu-1500.png\" alt=\"Clickable prototype screenshot of the Plugin Video sharing screen\" srcset=\"/img/plugin-vcu-1000.png 1800w, /img/plugin-vcu-660.png 1200w\">",
           "imgClass": "mobile-mock"
         }
       ],
@@ -145,7 +145,7 @@
           "link":"./plus-five",
           "client": "Capital One",
           "title": "+Five short film player",
-          "image": "<img width=\"2000\" height=\"1250\" src=\"/img/demo.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/demo-1500.png 1500w, /img/demo-1000.png 1000w, /img/demo-660.png 660w\">",
+          "image": "<img width=\"2520\" height=\"1575\" src=\"/img/demo-1500.png\" alt=\"Screenshot of the Video Player App\" srcset=\"/img/demo-1000.png 3200w, /img/demo-660.png 2000w\">",
           "imgClass": "website",
           "externalLink": {
             "url": "http://videodemo1.team-eight.com",
@@ -167,7 +167,7 @@
           "link":"./cms",
           "client": "Custom Websites",
           "title": "Assorted custom sites from scratch",
-          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/t8-1.png\" srcset=\"/img/t8-1-1500.png 1500w, /img/t8-1-1000.png 1000w, /img/t8-1-660.png 660w\" alt=\"Screenshot of the Team Eight Website\">",
+          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/t8-1.png\" srcset=\"/img/t8-1-1500.png 2800w, /img/t8-1-1000.png 1800w, /img/t8-1-660.png 1200w\" alt=\"Screenshot of the Team Eight Website\">",
           "imgClass": "website"
         }
       ],
@@ -204,21 +204,21 @@
           "link":"./smart-tv",
           "client": "In progress",
           "title": "Streaming app for Samsung TV",
-          "image": "<img width=\"1998\" height=\"11288\" src=\"/img/tv-app.png\" alt=\"graphic of smart tv app\" srcset=\"/img/tv-app-1500.png 1500w, /img/tv-app-1000.png 1000w, /img/tv-app-660.png 660w\">",
+          "image": "<img width=\"1998\" height=\"1128\" src=\"/img/tv-app.png\" alt=\"graphic of smart tv app\" srcset=\"/img/tv-app-1500.png 2800w, /img/tv-app-1800.png 1000w, /img/tv-app-660.png 1200w\">",
           "imgClass": "tv"
         },
         {
           "link":"./resurgent",
           "client": "Resurgent",
           "title": "React mobile app",
-          "image": "<img width=\"750\" height=\"1500\" src=\"/img/resurgent-main.png\" srcset=\"/img/resurgent-main-1000.png 1000w, /img/resurgent-main-660.png 660w\" alt=\"Screenshot of the Resurgent Mobile Prototype\">",
+          "image": "<img width=\"750\" height=\"1500\" src=\"/img/resurgent-main-1500.png\" srcset=\"/img/resurgent-main-1000.png 2000w, /img/resurgent-main-660.png 1500w\" alt=\"Screenshot of the Resurgent Mobile Prototype\">",
           "imgClass": "mobile-mock -portrait"
         },
         {
           "link":"./cms",
           "client": "Assorted clients and partners",
           "title": "CMS and eCommerce sites",
-          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/cb-1.png\" srcset=\"/img/cb-1-1500.png 1500w, /img/cb-1-1000.png 1000w, /img/cb-1-660.png 660w\" alt=\"Screenshot of the Corgibytes Website\">",
+          "image": "<img width=\"2000\" height=\"1315\" src=\"/img/cb-1.png\" srcset=\"/img/cb-1-1500.png 2800w, /img/cb-1-1000.png 1800w, /img/cb-1-660.png 120w\" alt=\"Screenshot of the Corgibytes Website\">",
           "imgClass": "website"
         }
       ],

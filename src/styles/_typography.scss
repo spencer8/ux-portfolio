@@ -162,10 +162,13 @@ a.btn {
 		display: block;
 		position: absolute;
 		writing-mode: vertical-rl;
-    text-orientation: upright;
     right: 0;
     line-height: $space*.75;
-    letter-spacing: -1px;
     white-space: nowrap;
+
+    @supports ( text-orientation: upright ) {
+    	text-orientation: upright;
+			letter-spacing: -1px;
+    }
 	}
 }

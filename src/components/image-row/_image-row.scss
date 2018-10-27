@@ -7,7 +7,7 @@
 		color: white;
 	}
 
-	.h4 {
+	p.emphasized.-section {
 		text-align: center;
 		margin-bottom: $space;
 		color: $creme;
@@ -30,8 +30,12 @@
 
 			display: grid;
 
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: 1;
 			grid-gap: $space * 2;
+
+			@media screen and (min-width: $bp-md) {
+				grid-template-columns: repeat(2, 1fr);
+			}
 
 			> * {
 				margin-left: 0;
