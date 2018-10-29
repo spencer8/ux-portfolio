@@ -2,12 +2,12 @@
     grid-row-gap: $space * 2;
     min-height: auto;
 
-    @supports ( display: griddd ) {
+    @supports ( display: grid ) {
         margin: 4*$space 0;
     }
 
     @media screen and (min-width: $bp-md) {
-        @supports ( display: griddd ) {
+        @supports ( display: grid ) {
             margin: 6*$space 0 3*$space;
         }
 

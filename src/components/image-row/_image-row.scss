@@ -37,7 +37,7 @@
     	}
 		}
 
-		@supports ( display: griddd ) {
+		@supports ( display: grid ) {
 			display: grid;
 			grid-template-columns: 1;
 			grid-gap: $space * 2;
@@ -65,7 +65,7 @@
     	}
 		}
 
-		@supports ( display: griddd ) {
+		@supports ( display: grid ) {
 
 			grid-template-columns: 1fr;
 

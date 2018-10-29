@@ -6,7 +6,7 @@
 	margin-left: auto;
 	margin-right: auto;
 
-	@supports ( display: griddd ) {
+	@supports ( display: grid ) {
 		padding: 18vh 0;
 		margin-left: 0;
 		margin-right: 0;
@@ -16,7 +16,7 @@
 		grid-auto-flow: column;
 		padding: 18vh calc(50% - 400px);
 
-		@supports ( display: griddd ) {
+		@supports ( display: grid ) {
 			padding: 18vh 0;
 		}
 	}
@@ -88,7 +88,7 @@
     }
 	}
 
-	@supports ( display: griddd ) {
+	@supports ( display: grid ) {
 		margin-left: 0;
 		margin-right: 0;
 		max-width: none;
