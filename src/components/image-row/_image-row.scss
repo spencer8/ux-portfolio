@@ -45,7 +45,7 @@
 			.img-wrap {
 				margin:0;
 			}
-			
+
 			@media screen and (min-width: $bp-md) {
 				grid-template-columns: repeat(2, 1fr);
 			}
@@ -77,10 +77,6 @@
 				grid-template-columns: repeat(3, 1fr);
 			}
 		}
-	}
-
-	> div {
-		flex:1;
 	}
 
 	.-img-padding & {

@@ -133,9 +133,14 @@ a.btn {
 
 .lists > ul,
 .sh-list {
-	flex: 1;
-	margin: 0;
 	padding: 0;
+	margin-right: $space;
+
+	@supports ( display: grid ) {
+		flex: 1;
+		margin: 0;
+	}
+
 
 	li {
 		list-style: none;
