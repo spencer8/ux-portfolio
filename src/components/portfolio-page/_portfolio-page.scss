@@ -1,10 +1,15 @@
 .portfolio-section.ppage {
-    margin: 4*$space 0;
     grid-row-gap: $space * 2;
     min-height: auto;
 
+    @supports ( display: griddd ) {
+        margin: 4*$space 0;
+    }
+
     @media screen and (min-width: $bp-md) {
-    	margin: 6*$space 0 3*$space;
+        @supports ( display: griddd ) {
+            margin: 6*$space 0 3*$space;
+        }
 
         article {
             display: flex;

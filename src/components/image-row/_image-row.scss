@@ -19,6 +19,8 @@
 	flex-direction: column;
 	max-width: $max-width;
 	margin: 0 auto;
+	flex-wrap: wrap;
+  justify-content: space-between;
 
 	.-two-up &,
 	.-three-up & {
@@ -26,13 +28,24 @@
 		flex-wrap: wrap;
 		flex-direction: row;
 
-		@supports ( display: grid ) {
+		.img-wrap {
+			flex: 1 0 60%;
+    	margin: 1rem;
 
+    	@media screen and (min-width: $bp-md) {
+    		flex: 1 0 40%;
+    	}
+		}
+
+		@supports ( display: griddd ) {
 			display: grid;
-
 			grid-template-columns: 1;
 			grid-gap: $space * 2;
 
+			.img-wrap {
+				margin:0;
+			}
+			
 			@media screen and (min-width: $bp-md) {
 				grid-template-columns: repeat(2, 1fr);
 			}
@@ -46,7 +59,13 @@
 
 	.-three-up & {
 
-		@supports ( display: grid ) {
+		.img-wrap {
+			@media screen and (min-width: $bp-md) {
+    		flex: 1 0 30%;
+    	}
+		}
+
+		@supports ( display: griddd ) {
 
 			grid-template-columns: 1fr;
 
