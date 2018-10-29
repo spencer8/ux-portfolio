@@ -66,10 +66,7 @@
 
 .portfolio-section {
   margin: 20vh 0 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	flex-direction: column;
+	display: block;
 	position: relative;
 
 	max-width: 800px;
