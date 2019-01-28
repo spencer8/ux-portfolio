@@ -1,12 +1,12 @@
-##Spencer's Portfolio
+## Spencer's Portfolio
 
 A simple project built on webpack, handlebars, sass and babel.
 
-###Installation
+### Installation
 
     npm install
     
-###Usage
+### Usage
 
 Run the following to start up the development server and watch for changes.
 
@@ -40,12 +40,12 @@ Contents of the `static` directory are simply copied to `dist`.
 
 To add a new page to the site, create a view folder with content similar to `home` and `about` and update the `webpack.config.js` as follows:
 
-#####Entry
+##### Entry
 
 Deploy using github pages set to the master/docs folder
 
 
-#####Entry
+##### Entry
 
 ```javascript
 entry: {
@@ -55,7 +55,7 @@ entry: {
 },
 ```
 
-#####HtmlWebpackPlugin
+##### HtmlWebpackPlugin
 
 ```javascript
 new HtmlWebpackPlugin({
